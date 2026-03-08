@@ -1,0 +1,217 @@
+{
+  "extName": {
+    "message": "Controlador de Velocidad Netflix"
+  },
+  "extDescription": {
+    "message": "Controla la velocidad de reproducción de Netflix con valores personalizados, atajos de teclado y un indicador en pantalla."
+  },
+  "popupTitle": {
+    "message": "Control de Velocidad"
+  },
+  "currentSpeed": {
+    "message": "Velocidad Actual"
+  },
+  "quickSpeeds": {
+    "message": "Velocidades Rápidas"
+  },
+  "customSpeed": {
+    "message": "Velocidad Personalizada"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ej., 1.85"
+  },
+  "applyBtn": {
+    "message": "Aplicar"
+  },
+  "resetBtn": {
+    "message": "Restablecer"
+  },
+  "settingsBtn": {
+    "message": "Configuración"
+  },
+  "connecting": {
+    "message": "Conectando..."
+  },
+  "connected": {
+    "message": "Conectado a Netflix"
+  },
+  "notOnNetflix": {
+    "message": "No estás en Netflix"
+  },
+  "invalidNumber": {
+    "message": "Número inválido"
+  },
+  "speedRange": {
+    "message": "La velocidad debe estar entre $1 y $2",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "speedSetTo": {
+    "message": "Velocidad ajustada a $1x",
+    "placeholders": {
+      "1": { "content": "$1" }
+    }
+  },
+  "enterSpeed": {
+    "message": "Por favor ingresa un valor de velocidad"
+  },
+  "decreaseSpeed": {
+    "message": "Disminuir velocidad"
+  },
+  "increaseSpeed": {
+    "message": "Aumentar velocidad"
+  },
+  "resetToDefault": {
+    "message": "Restablecer a 1.0x"
+  },
+  "optionsTitle": {
+    "message": "Controlador de Velocidad Netflix"
+  },
+  "optionsSubtitle": {
+    "message": "Personaliza tu experiencia de reproducción"
+  },
+  "speedSettings": {
+    "message": "Configuración de Velocidad"
+  },
+  "defaultSpeedLabel": {
+    "message": "Velocidad Predeterminada"
+  },
+  "defaultSpeedDesc": {
+    "message": "Velocidad aplicada al comenzar a ver"
+  },
+  "speedStepLabel": {
+    "message": "Paso de Velocidad"
+  },
+  "speedStepDesc": {
+    "message": "Cantidad para aumentar/disminuir por paso"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Preajustes de Velocidad"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Lista de velocidades separadas por comas"
+  },
+  "quickSpeedExample": {
+    "message": "Ejemplo: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0"
+  },
+  "overlaySettings": {
+    "message": "Configuración de Superposición"
+  },
+  "speedOverlayLabel": {
+    "message": "Indicador de Velocidad"
+  },
+  "speedOverlayDesc": {
+    "message": "Mostrar indicador de velocidad en el video"
+  },
+  "overlayControlsLabel": {
+    "message": "Controles en Pantalla"
+  },
+  "overlayControlsDesc": {
+    "message": "Mostrar mini botones de velocidad en el video"
+  },
+  "overlayPositionLabel": {
+    "message": "Posición del Indicador"
+  },
+  "overlayPositionDesc": {
+    "message": "Dónde mostrar el indicador de velocidad"
+  },
+  "posTopLeft": {
+    "message": "Arriba Izquierda"
+  },
+  "posTopRight": {
+    "message": "Arriba Derecha"
+  },
+  "posBottomLeft": {
+    "message": "Abajo Izquierda"
+  },
+  "posBottomRight": {
+    "message": "Abajo Derecha"
+  },
+  "overlayOpacityLabel": {
+    "message": "Opacidad del Indicador"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparencia del indicador"
+  },
+  "keyboardSettings": {
+    "message": "Atajos de Teclado"
+  },
+  "enableShortcutsLabel": {
+    "message": "Habilitar Atajos"
+  },
+  "enableShortcutsDesc": {
+    "message": "Usar teclado para controlar la velocidad"
+  },
+  "increaseShortcutLabel": {
+    "message": "Aumentar Velocidad"
+  },
+  "increaseShortcutDesc": {
+    "message": "Atajo para acelerar"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Disminuir Velocidad"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Atajo para desacelerar"
+  },
+  "pressKeys": {
+    "message": "Presiona teclas..."
+  },
+  "appearanceSettings": {
+    "message": "Apariencia"
+  },
+  "themeLabel": {
+    "message": "Tema"
+  },
+  "themeDesc": {
+    "message": "Esquema de colores del popup"
+  },
+  "themeDark": {
+    "message": "Oscuro"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "languageLabel": {
+    "message": "Idioma"
+  },
+  "languageDesc": {
+    "message": "Idioma de la extensión"
+  },
+  "saveBtn": {
+    "message": "Guardar Configuración"
+  },
+  "resetDefaultsBtn": {
+    "message": "Restablecer Valores"
+  },
+  "settingsSaved": {
+    "message": "¡Configuración guardada exitosamente!"
+  },
+  "settingsReset": {
+    "message": "Configuración restablecida a valores predeterminados"
+  },
+  "saveFailed": {
+    "message": "Error al guardar la configuración"
+  },
+  "resetFailed": {
+    "message": "Error al restablecer la configuración"
+  },
+  "resetConfirm": {
+    "message": "¿Restablecer toda la configuración a valores predeterminados? Esta acción no se puede deshacer."
+  },
+  "validationDefaultSpeed": {
+    "message": "La velocidad predeterminada debe estar entre $1 y $2",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "El paso de velocidad debe estar entre 0.05 y 5"
+  },
+  "validationQuickSpeeds": {
+    "message": "Se requiere al menos una velocidad rápida válida"
+  }
+}

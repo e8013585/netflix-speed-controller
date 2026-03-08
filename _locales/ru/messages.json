@@ -1,0 +1,217 @@
+{
+  "extName": {
+    "message": "Контроллер Скорости Netflix"
+  },
+  "extDescription": {
+    "message": "Управляйте скоростью воспроизведения Netflix с пользовательскими значениями, горячими клавишами и индикатором на экране."
+  },
+  "popupTitle": {
+    "message": "Контроль Скорости"
+  },
+  "currentSpeed": {
+    "message": "Текущая Скорость"
+  },
+  "quickSpeeds": {
+    "message": "Быстрый Выбор"
+  },
+  "customSpeed": {
+    "message": "Своя Скорость"
+  },
+  "customSpeedPlaceholder": {
+    "message": "напр., 1.85"
+  },
+  "applyBtn": {
+    "message": "Применить"
+  },
+  "resetBtn": {
+    "message": "Сброс"
+  },
+  "settingsBtn": {
+    "message": "Настройки"
+  },
+  "connecting": {
+    "message": "Подключение..."
+  },
+  "connected": {
+    "message": "Подключено к Netflix"
+  },
+  "notOnNetflix": {
+    "message": "Вы не на Netflix"
+  },
+  "invalidNumber": {
+    "message": "Неверное число"
+  },
+  "speedRange": {
+    "message": "Скорость должна быть от $1 до $2",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "speedSetTo": {
+    "message": "Скорость установлена на $1x",
+    "placeholders": {
+      "1": { "content": "$1" }
+    }
+  },
+  "enterSpeed": {
+    "message": "Пожалуйста, введите значение скорости"
+  },
+  "decreaseSpeed": {
+    "message": "Уменьшить скорость"
+  },
+  "increaseSpeed": {
+    "message": "Увеличить скорость"
+  },
+  "resetToDefault": {
+    "message": "Сбросить до 1.0x"
+  },
+  "optionsTitle": {
+    "message": "Контроллер Скорости Netflix"
+  },
+  "optionsSubtitle": {
+    "message": "Настройте воспроизведение под себя"
+  },
+  "speedSettings": {
+    "message": "Настройки Скорости"
+  },
+  "defaultSpeedLabel": {
+    "message": "Скорость по Умолчанию"
+  },
+  "defaultSpeedDesc": {
+    "message": "Скорость при начале просмотра"
+  },
+  "speedStepLabel": {
+    "message": "Шаг Скорости"
+  },
+  "speedStepDesc": {
+    "message": "Величина изменения за один шаг"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Пресеты Скорости"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Список скоростей через запятую"
+  },
+  "quickSpeedExample": {
+    "message": "Пример: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0"
+  },
+  "overlaySettings": {
+    "message": "Настройки Индикатора"
+  },
+  "speedOverlayLabel": {
+    "message": "Индикатор Скорости"
+  },
+  "speedOverlayDesc": {
+    "message": "Показывать индикатор скорости на видео"
+  },
+  "overlayControlsLabel": {
+    "message": "Управление на Видео"
+  },
+  "overlayControlsDesc": {
+    "message": "Показывать мини-кнопки скорости на видео"
+  },
+  "overlayPositionLabel": {
+    "message": "Положение Индикатора"
+  },
+  "overlayPositionDesc": {
+    "message": "Где отображать индикатор скорости"
+  },
+  "posTopLeft": {
+    "message": "Сверху Слева"
+  },
+  "posTopRight": {
+    "message": "Сверху Справа"
+  },
+  "posBottomLeft": {
+    "message": "Снизу Слева"
+  },
+  "posBottomRight": {
+    "message": "Снизу Справа"
+  },
+  "overlayOpacityLabel": {
+    "message": "Прозрачность Индикатора"
+  },
+  "overlayOpacityDesc": {
+    "message": "Прозрачность индикатора на видео"
+  },
+  "keyboardSettings": {
+    "message": "Горячие Клавиши"
+  },
+  "enableShortcutsLabel": {
+    "message": "Включить Горячие Клавиши"
+  },
+  "enableShortcutsDesc": {
+    "message": "Управлять скоростью с клавиатуры"
+  },
+  "increaseShortcutLabel": {
+    "message": "Увеличить Скорость"
+  },
+  "increaseShortcutDesc": {
+    "message": "Клавиша для ускорения"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Уменьшить Скорость"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Клавиша для замедления"
+  },
+  "pressKeys": {
+    "message": "Нажмите клавиши..."
+  },
+  "appearanceSettings": {
+    "message": "Внешний Вид"
+  },
+  "themeLabel": {
+    "message": "Тема"
+  },
+  "themeDesc": {
+    "message": "Цветовая схема расширения"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "languageLabel": {
+    "message": "Язык"
+  },
+  "languageDesc": {
+    "message": "Язык интерфейса расширения"
+  },
+  "saveBtn": {
+    "message": "Сохранить Настройки"
+  },
+  "resetDefaultsBtn": {
+    "message": "Сбросить Настройки"
+  },
+  "settingsSaved": {
+    "message": "Настройки успешно сохранены!"
+  },
+  "settingsReset": {
+    "message": "Настройки сброшены до значений по умолчанию"
+  },
+  "saveFailed": {
+    "message": "Ошибка сохранения настроек"
+  },
+  "resetFailed": {
+    "message": "Ошибка сброса настроек"
+  },
+  "resetConfirm": {
+    "message": "Сбросить все настройки до значений по умолчанию? Это действие нельзя отменить."
+  },
+  "validationDefaultSpeed": {
+    "message": "Скорость по умолчанию должна быть от $1 до $2",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Шаг скорости должен быть от 0.05 до 5"
+  },
+  "validationQuickSpeeds": {
+    "message": "Необходимо указать хотя бы одну быструю скорость"
+  }
+}

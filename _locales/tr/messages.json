@@ -1,0 +1,217 @@
+{
+  "extName": {
+    "message": "Netflix Hız Kontrol"
+  },
+  "extDescription": {
+    "message": "Netflix oynatma hızını özel değerler, klavye kısayolları ve ekran göstergesi ile kontrol edin."
+  },
+  "popupTitle": {
+    "message": "Hız Kontrol"
+  },
+  "currentSpeed": {
+    "message": "Mevcut Hız"
+  },
+  "quickSpeeds": {
+    "message": "Hızlı Seçim"
+  },
+  "customSpeed": {
+    "message": "Özel Hız"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ör., 1.85"
+  },
+  "applyBtn": {
+    "message": "Uygula"
+  },
+  "resetBtn": {
+    "message": "Sıfırla"
+  },
+  "settingsBtn": {
+    "message": "Ayarlar"
+  },
+  "connecting": {
+    "message": "Bağlanıyor..."
+  },
+  "connected": {
+    "message": "Netflix'e Bağlandı"
+  },
+  "notOnNetflix": {
+    "message": "Netflix'te Değilsiniz"
+  },
+  "invalidNumber": {
+    "message": "Geçersiz sayı"
+  },
+  "speedRange": {
+    "message": "Hız $1 ile $2 arasında olmalıdır",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "speedSetTo": {
+    "message": "Hız $1x olarak ayarlandı",
+    "placeholders": {
+      "1": { "content": "$1" }
+    }
+  },
+  "enterSpeed": {
+    "message": "Lütfen bir hız değeri girin"
+  },
+  "decreaseSpeed": {
+    "message": "Hızı azalt"
+  },
+  "increaseSpeed": {
+    "message": "Hızı artır"
+  },
+  "resetToDefault": {
+    "message": "1.0x'e sıfırla"
+  },
+  "optionsTitle": {
+    "message": "Netflix Hız Kontrol"
+  },
+  "optionsSubtitle": {
+    "message": "Oynatma deneyiminizi özelleştirin"
+  },
+  "speedSettings": {
+    "message": "Hız Ayarları"
+  },
+  "defaultSpeedLabel": {
+    "message": "Varsayılan Hız"
+  },
+  "defaultSpeedDesc": {
+    "message": "İzlemeye başladığınızda uygulanan hız"
+  },
+  "speedStepLabel": {
+    "message": "Hız Adımı"
+  },
+  "speedStepDesc": {
+    "message": "Her adımda artırma/azaltma miktarı"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Hızlı Hız Ön Ayarları"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Virgülle ayrılmış hız listesi"
+  },
+  "quickSpeedExample": {
+    "message": "Örnek: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0"
+  },
+  "overlaySettings": {
+    "message": "Gösterge Ayarları"
+  },
+  "speedOverlayLabel": {
+    "message": "Hız Göstergesi"
+  },
+  "speedOverlayDesc": {
+    "message": "Videoda hız göstergesini göster"
+  },
+  "overlayControlsLabel": {
+    "message": "Ekran Kontrolleri"
+  },
+  "overlayControlsDesc": {
+    "message": "Videoda mini hız düğmelerini göster"
+  },
+  "overlayPositionLabel": {
+    "message": "Gösterge Konumu"
+  },
+  "overlayPositionDesc": {
+    "message": "Hız göstergesinin konumu"
+  },
+  "posTopLeft": {
+    "message": "Sol Üst"
+  },
+  "posTopRight": {
+    "message": "Sağ Üst"
+  },
+  "posBottomLeft": {
+    "message": "Sol Alt"
+  },
+  "posBottomRight": {
+    "message": "Sağ Alt"
+  },
+  "overlayOpacityLabel": {
+    "message": "Gösterge Opaklığı"
+  },
+  "overlayOpacityDesc": {
+    "message": "Göstergenin saydamlığı"
+  },
+  "keyboardSettings": {
+    "message": "Klavye Kısayolları"
+  },
+  "enableShortcutsLabel": {
+    "message": "Kısayolları Etkinleştir"
+  },
+  "enableShortcutsDesc": {
+    "message": "Hızı kontrol etmek için klavye kullan"
+  },
+  "increaseShortcutLabel": {
+    "message": "Hızı Artır"
+  },
+  "increaseShortcutDesc": {
+    "message": "Hızlandırma kısayolu"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Hızı Azalt"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Yavaşlatma kısayolu"
+  },
+  "pressKeys": {
+    "message": "Tuşlara basın..."
+  },
+  "appearanceSettings": {
+    "message": "Görünüm"
+  },
+  "themeLabel": {
+    "message": "Tema"
+  },
+  "themeDesc": {
+    "message": "Eklenti renk şeması"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "languageLabel": {
+    "message": "Dil"
+  },
+  "languageDesc": {
+    "message": "Eklenti görüntüleme dili"
+  },
+  "saveBtn": {
+    "message": "Ayarları Kaydet"
+  },
+  "resetDefaultsBtn": {
+    "message": "Varsayılanlara Dön"
+  },
+  "settingsSaved": {
+    "message": "Ayarlar başarıyla kaydedildi!"
+  },
+  "settingsReset": {
+    "message": "Ayarlar varsayılan değerlere sıfırlandı"
+  },
+  "saveFailed": {
+    "message": "Ayarlar kaydedilemedi"
+  },
+  "resetFailed": {
+    "message": "Ayarlar sıfırlanamadı"
+  },
+  "resetConfirm": {
+    "message": "Tüm ayarlar varsayılanlara sıfırlansın mı? Bu işlem geri alınamaz."
+  },
+  "validationDefaultSpeed": {
+    "message": "Varsayılan hız $1 ile $2 arasında olmalıdır",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Hız adımı 0.05 ile 5 arasında olmalıdır"
+  },
+  "validationQuickSpeeds": {
+    "message": "En az bir geçerli hızlı hız değeri gereklidir"
+  }
+}

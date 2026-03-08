@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="optionsTitle">Netflix Speed Controller</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <div class="options-container" id="optionsContainer">
+    <!-- Header -->
+    <header class="options-header">
+      <div class="header-content">
+        <span class="header-icon">⚡</span>
+        <div>
+          <h1 data-i18n="optionsTitle">Netflix Speed Controller</h1>
+          <p class="subtitle" data-i18n="optionsSubtitle">Customize your playback experience</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="options-main">
+      <!-- Speed Settings -->
+      <section class="settings-section">
+        <h2 class="section-title" data-i18n="speedSettings">Speed Settings</h2>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="defaultSpeed" data-i18n="defaultSpeedLabel">Default Speed</label>
+            <p class="setting-desc" data-i18n="defaultSpeedDesc">Speed applied when you start watching</p>
+          </div>
+          <div class="setting-control">
+            <input type="number" id="defaultSpeed" min="0.1" max="16" step="0.05" value="1.0" class="input-field input-small">
+            <span class="input-suffix">x</span>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="speedStep" data-i18n="speedStepLabel">Speed Step</label>
+            <p class="setting-desc" data-i18n="speedStepDesc">Amount to increase/decrease per step</p>
+          </div>
+          <div class="setting-control">
+            <input type="number" id="speedStep" min="0.05" max="5" step="0.05" value="0.25" class="input-field input-small">
+            <span class="input-suffix">x</span>
+          </div>
+        </div>
+
+        <div class="setting-row setting-column">
+          <div class="setting-info">
+            <label data-i18n="quickSpeedPresetsLabel">Quick Speed Presets</label>
+            <p class="setting-desc" data-i18n="quickSpeedPresetsDesc">Comma-separated list of preset speeds</p>
+          </div>
+          <div class="setting-control full-width">
+            <input type="text" id="quickSpeeds" class="input-field" placeholder="0.75, 1.0, 1.25, 1.5, 2.0, 3.0">
+            <p class="input-note" data-i18n="quickSpeedExample">Example: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Overlay Settings -->
+      <section class="settings-section">
+        <h2 class="section-title" data-i18n="overlaySettings">Overlay Settings</h2>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="overlayEnabled" data-i18n="speedOverlayLabel">Speed Overlay</label>
+            <p class="setting-desc" data-i18n="speedOverlayDesc">Show speed indicator on video</p>
+          </div>
+          <div class="setting-control">
+            <label class="toggle-switch">
+              <input type="checkbox" id="overlayEnabled" checked>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="overlayControlsEnabled" data-i18n="overlayControlsLabel">Overlay Controls</label>
+            <p class="setting-desc" data-i18n="overlayControlsDesc">Show mini speed buttons on video</p>
+          </div>
+          <div class="setting-control">
+            <label class="toggle-switch">
+              <input type="checkbox" id="overlayControlsEnabled">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="overlayPosition" data-i18n="overlayPositionLabel">Overlay Position</label>
+            <p class="setting-desc" data-i18n="overlayPositionDesc">Where to display the speed indicator</p>
+          </div>
+          <div class="setting-control">
+            <select id="overlayPosition" class="select-field">
+              <option value="top-left" data-i18n="posTopLeft">Top Left</option>
+              <option value="top-right" data-i18n="posTopRight" selected>Top Right</option>
+              <option value="bottom-left" data-i18n="posBottomLeft">Bottom Left</option>
+              <option value="bottom-right" data-i18n="posBottomRight">Bottom Right</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="overlayOpacity" data-i18n="overlayOpacityLabel">Overlay Opacity</label>
+            <p class="setting-desc" data-i18n="overlayOpacityDesc">Transparency of the overlay</p>
+          </div>
+          <div class="setting-control opacity-control">
+            <input type="range" id="overlayOpacity" min="0.1" max="1.0" step="0.05" value="0.85" class="range-input">
+            <span id="opacityValue" class="range-value">85%</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Keyboard Settings -->
+      <section class="settings-section">
+        <h2 class="section-title" data-i18n="keyboardSettings">Keyboard Shortcuts</h2>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="keyboardEnabled" data-i18n="enableShortcutsLabel">Enable Shortcuts</label>
+            <p class="setting-desc" data-i18n="enableShortcutsDesc">Use keyboard to control speed</p>
+          </div>
+          <div class="setting-control">
+            <label class="toggle-switch">
+              <input type="checkbox" id="keyboardEnabled" checked>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="setting-row" id="shortcutRow1">
+          <div class="setting-info">
+            <label data-i18n="increaseShortcutLabel">Increase Speed</label>
+            <p class="setting-desc" data-i18n="increaseShortcutDesc">Shortcut to speed up</p>
+          </div>
+          <div class="setting-control">
+            <button class="shortcut-btn" id="keyIncreaseBtn" data-key="keyIncrease">Shift + ]</button>
+          </div>
+        </div>
+
+        <div class="setting-row" id="shortcutRow2">
+          <div class="setting-info">
+            <label data-i18n="decreaseShortcutLabel">Decrease Speed</label>
+            <p class="setting-desc" data-i18n="decreaseShortcutDesc">Shortcut to slow down</p>
+          </div>
+          <div class="setting-control">
+            <button class="shortcut-btn" id="keyDecreaseBtn" data-key="keyDecrease">Shift + [</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Appearance Settings -->
+      <section class="settings-section">
+        <h2 class="section-title" data-i18n="appearanceSettings">Appearance</h2>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="theme" data-i18n="themeLabel">Theme</label>
+            <p class="setting-desc" data-i18n="themeDesc">Popup color scheme</p>
+          </div>
+          <div class="setting-control">
+            <select id="theme" class="select-field">
+              <option value="dark" data-i18n="themeDark">Dark</option>
+              <option value="light" data-i18n="themeLight">Light</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-info">
+            <label for="language" data-i18n="languageLabel">Language</label>
+            <p class="setting-desc" data-i18n="languageDesc">Extension display language</p>
+          </div>
+          <div class="setting-control">
+            <select id="language" class="select-field">
+              <!-- Populated dynamically from I18n.SUPPORTED_LOCALES -->
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <!-- Actions -->
+      <section class="settings-section actions-section">
+        <button class="btn btn-save" id="saveBtn" data-i18n="saveBtn">Save Settings</button>
+        <button class="btn btn-reset" id="resetBtn" data-i18n="resetDefaultsBtn">Reset to Defaults</button>
+      </section>
+
+      <!-- Footer Credit -->
+      <footer class="options-footer">
+        <span class="footer-credit">Levent B.</span>
+        <span class="footer-divider">·</span>
+        <span class="footer-version" id="footerVersion">v1.0.0</span>
+      </footer>
+  </div>
+
+  <script src="../utils/storage.js"></script>
+  <script src="../utils/i18n.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

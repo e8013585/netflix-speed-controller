@@ -1,0 +1,285 @@
+{
+  "extName": {
+    "message": "Netflix Speed Controller",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Control Netflix playback speed with custom values, keyboard shortcuts, and on-screen overlay.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Speed Controller",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Current Speed",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Quick Speeds",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Custom Speed",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "e.g., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Apply",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Reset",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Settings",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Connecting...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Connected to Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Not on Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Invalid number",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Speed must be between $1 and $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": { "content": "$1", "example": "0.1" },
+      "2": { "content": "$2", "example": "16" }
+    }
+  },
+  "speedSetTo": {
+    "message": "Speed set to $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": { "content": "$1", "example": "1.5" }
+    }
+  },
+  "enterSpeed": {
+    "message": "Please enter a speed value",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Decrease speed",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Increase speed",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Reset to 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix Speed Controller",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Customize your playback experience",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Speed Settings",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Default Speed",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Speed applied when you start watching",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Speed Step",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Amount to increase/decrease per step",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Quick Speed Presets",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Comma-separated list of preset speeds",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Example: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Overlay Settings",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Speed Overlay",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Show speed indicator on video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Overlay Controls",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Show mini speed buttons on video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Overlay Position",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Where to display the speed indicator",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Top Left",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Top Right",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Bottom Left",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Bottom Right",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Overlay Opacity",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparency of the overlay",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Keyboard Shortcuts",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Enable Shortcuts",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Use keyboard to control speed",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Increase Speed",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Shortcut to speed up",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Decrease Speed",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Shortcut to slow down",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Press keys...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Appearance",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Theme",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Popup color scheme",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Dark",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Light",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Language",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Extension display language",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Save Settings",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Reset to Defaults",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Settings saved successfully!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Settings reset to defaults",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Failed to save settings",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Failed to reset settings",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Reset all settings to defaults? This cannot be undone.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Default speed must be between $1 and $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": { "content": "$1", "example": "0.1" },
+      "2": { "content": "$2", "example": "16" }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Speed step must be between 0.05 and 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "At least one valid quick speed is required",
+    "description": "Validation error for quick speeds"
+  }
+}
