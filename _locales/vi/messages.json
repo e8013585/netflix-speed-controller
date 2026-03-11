@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Bộ điều khiển tốc độ Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Kiểm soát tốc độ phát lại Netflix bằng các giá trị tùy chỉnh, phím tắt và lớp phủ trên màn hình.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Bộ điều khiển tốc độ",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Tốc độ hiện tại",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Tốc độ nhanh",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Tốc độ tùy chỉnh",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ví dụ: 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Áp dụng",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Cài lại",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Cài đặt",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Đang kết nối...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Đã kết nối với Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Không có trên Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Số không hợp lệ",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Tốc độ phải nằm trong khoảng từ $1 đến $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Tốc độ được đặt thành $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Vui lòng nhập giá trị tốc độ",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Giảm tốc độ",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Tăng tốc độ",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Đặt lại về 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Bộ điều khiển tốc độ Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Tùy chỉnh trải nghiệm phát lại của bạn",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Cài đặt tốc độ",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Tốc độ mặc định",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Tốc độ được áp dụng khi bạn bắt đầu xem",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Bước tốc độ",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Số tiền tăng/giảm mỗi bước",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Cài đặt trước tốc độ nhanh",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Danh sách tốc độ đặt trước được phân tách bằng dấu phẩy",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Ví dụ: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Cài đặt lớp phủ",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Lớp phủ tốc độ",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Hiển thị chỉ báo tốc độ trên video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Điều khiển lớp phủ",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Hiển thị các nút tốc độ nhỏ trên video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Vị trí lớp phủ",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Nơi hiển thị chỉ báo tốc độ",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Trên cùng bên trái",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Trên cùng bên phải",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Dưới cùng bên trái",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Dưới cùng bên phải",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Độ mờ lớp phủ",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Độ trong suốt của lớp phủ",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Phím tắt",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Bật phím tắt",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Sử dụng bàn phím để kiểm soát tốc độ",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Tăng tốc độ",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Phím tắt để tăng tốc",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Giảm tốc độ",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Phím tắt để làm chậm",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Nhấn phím...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Vẻ bề ngoài",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "chủ đề",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Bảng màu bật lên",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Tối tăm",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Ánh sáng",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Ngôn ngữ",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Ngôn ngữ hiển thị tiện ích mở rộng",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Lưu cài đặt",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Đặt lại về mặc định",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Đã lưu cài đặt thành công!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Cài đặt lại về mặc định",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Không lưu được cài đặt",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Không thể đặt lại cài đặt",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Đặt lại tất cả cài đặt về mặc định? Điều này không thể hoàn tác được.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Tốc độ mặc định phải nằm trong khoảng từ $1 đến $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Bước tốc độ phải nằm trong khoảng từ 0,05 đến 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Cần có ít nhất một tốc độ nhanh hợp lệ",
+    "description": "Validation error for quick speeds"
+  }
+}

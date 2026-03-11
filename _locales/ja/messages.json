@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix スピードコントローラー",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "カスタム値、キーボードショートカット、画面上のオーバーレイを使用して、Netflix の再生速度を制御します。",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "スピードコントローラー",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "現在の速度",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "速いスピード",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "カスタムスピード",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "例: 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "適用する",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "リセット",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "設定",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "接続中...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflixに接続しています",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix にはありません",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "無効な番号です",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "速度は 1 ドルから 2 ドルの間である必要があります",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "速度を $1x に設定",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "速度値を入力してください",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "速度を下げる",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "速度を上げる",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0xにリセット",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix スピードコントローラー",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "再生エクスペリエンスをカスタマイズする",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "速度設定",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "デフォルトの速度",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "視聴開始時の速度適用",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "スピードステップ",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "1ステップあたりの増減量",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "クイックスピードプリセット",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "プリセット速度のカンマ区切りリスト",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "例: 0.5、0.75、1.0、1.25、1.5、2.0、3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "オーバーレイ設定",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "スピードオーバーレイ",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "ビデオに速度インジケーターを表示する",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "オーバーレイコントロール",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "ビデオにミニ速度ボタンを表示する",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "オーバーレイ位置",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "速度インジケーターを表示する場所",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "左上",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "右上",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "左下",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "右下",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "オーバーレイの不透明度",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "オーバーレイの透明度",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "キーボードショートカット",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "ショートカットを有効にする",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "キーボードを使用して速度を制御する",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "速度を上げる",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "高速化するショートカット",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "速度を下げる",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "速度を落とすためのショートカット",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "キーを押してください...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "外観",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "テーマ",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "ポップアップの配色",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "暗い",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "ライト",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "言語",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "拡張表示言語",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "設定の保存",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "デフォルトにリセット",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "設定が正常に保存されました。",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "設定がデフォルトにリセットされる",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "設定の保存に失敗しました",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "設定のリセットに失敗しました",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "すべての設定をデフォルトにリセットしますか?これを元に戻すことはできません。",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "デフォルトの速度は $1 ～ $2 でなければなりません",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "速度ステップは 0.05 ～ 5 の間でなければなりません",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "少なくとも 1 つの有効なクイック速度が必要です",
+    "description": "Validation error for quick speeds"
+  }
+}

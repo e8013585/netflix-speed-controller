@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Нетфлик контролер брзине",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Контролишите брзину Нетфлик репродукције помоћу прилагођених вредности, пречица на тастатури и преклапања на екрану.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Спеед Цонтроллер",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Тренутна брзина",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Куицк Спеедс",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Прилагођена брзина",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "нпр. 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Пријавите се",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Ресетуј",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Подешавања",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Повезивање...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Повезано са Нетфлик-ом",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Не на Нетфликсу",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Неважећи број",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Брзина мора бити између $1 и $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Брзина је подешена на $1к",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Унесите вредност брзине",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Смањите брзину",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Повећајте брзину",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Ресетујте на 1.0к",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Нетфлик контролер брзине",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Прилагодите своје искуство репродукције",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Подешавања брзине",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Подразумевана брзина",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Брзина се примењује када почнете да гледате",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Спеед Степ",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Износ за повећање/смањење по кораку",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Брза подешавања брзине",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Листа унапред подешених брзина раздвојених зарезима",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Пример: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Подешавања преклапања",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Спеед Оверлаи",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Прикажи индикатор брзине на видео снимку",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Оверлаи Цонтролс",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Прикажи мини дугмад за брзину на видео снимку",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Оверлаи Поситион",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Где да се прикаже индикатор брзине",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Горе лево",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Горе десно",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Доле лево",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Доле десно",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Оверлаи Опацити",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Транспарентност преклапања",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Пречице на тастатури",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Омогућите пречице",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Користите тастатуру за контролу брзине",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Повећајте брзину",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Пречица за убрзање",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Смањите брзину",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Пречица за успоравање",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Притисните тастере...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Изглед",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Тема",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Шема боја искачућег прозора",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Дарк",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Светлост",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Језик",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Језик приказа екстензије",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Сачувај подешавања",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Ресетујте на подразумеване вредности",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Подешавања су успешно сачувана!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Подешавања се враћају на подразумеване вредности",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Чување подешавања није успело",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Ресетовање подешавања није успело",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Ресетовати сва подешавања на подразумеване вредности? Ово се не може поништити.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Подразумевана брзина мора бити између $1 и $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Корак брзине мора бити између 0,05 и 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Потребна је бар једна важећа брза брзина",
+    "description": "Validation error for quick speeds"
+  }
+}

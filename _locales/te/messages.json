@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "నెట్‌ఫ్లిక్స్ స్పీడ్ కంట్రోలర్",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "అనుకూల విలువలు, కీబోర్డ్ సత్వరమార్గాలు మరియు ఆన్-స్క్రీన్ ఓవర్‌లేతో Netflix ప్లేబ్యాక్ వేగాన్ని నియంత్రించండి.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "స్పీడ్ కంట్రోలర్",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "ప్రస్తుత వేగం",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "త్వరిత వేగం",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "అనుకూల వేగం",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ఉదా., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "దరఖాస్తు చేసుకోండి",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "రీసెట్ చేయండి",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "సెట్టింగ్‌లు",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "కనెక్ట్ అవుతోంది...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflixకి కనెక్ట్ చేయబడింది",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflixలో కాదు",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "చెల్లని సంఖ్య",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "వేగం తప్పనిసరిగా $1 మరియు $2 మధ్య ఉండాలి",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "వేగం $1xకి సెట్ చేయబడింది",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "దయచేసి వేగ విలువను నమోదు చేయండి",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "వేగాన్ని తగ్గించండి",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "వేగం పెంచండి",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0xకి రీసెట్ చేయండి",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "నెట్‌ఫ్లిక్స్ స్పీడ్ కంట్రోలర్",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "మీ ప్లేబ్యాక్ అనుభవాన్ని అనుకూలీకరించండి",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "స్పీడ్ సెట్టింగ్‌లు",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "డిఫాల్ట్ వేగం",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "మీరు చూడటం ప్రారంభించినప్పుడు వేగం వర్తించబడుతుంది",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "స్పీడ్ స్టెప్",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "ఒక్కో దశకు పెంచడానికి/తగ్గడానికి మొత్తం",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "త్వరిత స్పీడ్ ప్రీసెట్లు",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "ప్రీసెట్ వేగం యొక్క కామాతో వేరు చేయబడిన జాబితా",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "ఉదాహరణ: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "అతివ్యాప్తి సెట్టింగ్‌లు",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "స్పీడ్ ఓవర్లే",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "వీడియోలో వేగ సూచికను చూపు",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "అతివ్యాప్తి నియంత్రణలు",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "వీడియోలో మినీ స్పీడ్ బటన్‌లను చూపించు",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "అతివ్యాప్తి స్థానం",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "వేగ సూచికను ఎక్కడ ప్రదర్శించాలి",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "ఎగువ ఎడమ",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "ఎగువ కుడి",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "దిగువ ఎడమ",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "దిగువ కుడి",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "అతివ్యాప్తి అస్పష్టత",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "ఓవర్లే యొక్క పారదర్శకత",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "కీబోర్డ్ సత్వరమార్గాలు",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "సత్వరమార్గాలను ప్రారంభించండి",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "వేగాన్ని నియంత్రించడానికి కీబోర్డ్ ఉపయోగించండి",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "వేగం పెంచండి",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "వేగవంతం చేయడానికి సత్వరమార్గం",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "వేగాన్ని తగ్గించండి",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "వేగాన్ని తగ్గించడానికి సత్వరమార్గం",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "కీలను నొక్కండి...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "స్వరూపం",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "థీమ్",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "పాప్అప్ రంగు పథకం",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "చీకటి",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "కాంతి",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "భాష",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "పొడిగింపు ప్రదర్శన భాష",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "సెట్టింగ్‌లను సేవ్ చేయండి",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "డిఫాల్ట్‌లకు రీసెట్ చేయండి",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "సెట్టింగ్‌లు డిఫాల్ట్‌లకు రీసెట్ చేయబడ్డాయి",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "సెట్టింగ్‌లను సేవ్ చేయడంలో విఫలమైంది",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "సెట్టింగ్‌లను రీసెట్ చేయడంలో విఫలమైంది",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "అన్ని సెట్టింగ్‌లను డిఫాల్ట్‌లకు రీసెట్ చేయాలా? ఇది రద్దు చేయబడదు.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "డిఫాల్ట్ వేగం తప్పనిసరిగా $1 మరియు $2 మధ్య ఉండాలి",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "స్పీడ్ స్టెప్ తప్పనిసరిగా 0.05 మరియు 5 మధ్య ఉండాలి",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "కనీసం ఒక చెల్లుబాటు అయ్యే శీఘ్ర వేగం అవసరం",
+    "description": "Validation error for quick speeds"
+  }
+}

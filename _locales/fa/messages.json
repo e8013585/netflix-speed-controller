@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "کنترل کننده سرعت نتفلیکس",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "سرعت پخش Netflix را با مقادیر سفارشی، میانبرهای صفحه کلید و پوشش روی صفحه کنترل کنید.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "کنترل کننده سرعت",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "سرعت فعلی",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "سرعت های سریع",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "سرعت سفارشی",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "به عنوان مثال، 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "درخواست کنید",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "بازنشانی کنید",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "تنظیمات",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "در حال اتصال...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "به نتفلیکس متصل است",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "در نتفلیکس نیست",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "شماره نامعتبر",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "سرعت باید بین 1 تا 2 دلار باشد",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "سرعت روی 1 دلار تنظیم شده است",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "لطفاً یک مقدار سرعت وارد کنید",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "سرعت را کاهش دهید",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "سرعت را افزایش دهید",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "بازنشانی به 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "کنترل کننده سرعت نتفلیکس",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "تجربه پخش خود را سفارشی کنید",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "تنظیمات سرعت",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "سرعت پیش فرض",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "وقتی شروع به تماشا می کنید سرعت اعمال می شود",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "مرحله سرعت",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "مقدار افزایش/کاهش در هر مرحله",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "از پیش تنظیم سرعت سریع",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "لیست سرعت های از پیش تعیین شده با کاما جدا شده است",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "مثال: 0.5، 0.75، 1.0، 1.25، 1.5، 2.0، 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "تنظیمات پوشش",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "پوشش سرعت",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "نمایش نشانگر سرعت در ویدیو",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "کنترل های همپوشانی",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "نمایش دکمه های سرعت کوچک در ویدیو",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "موقعیت پوشش",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "مکان نمایش نشانگر سرعت",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "بالا سمت چپ",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "بالا سمت راست",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "پایین سمت چپ",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "پایین سمت راست",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Opacity همپوشانی",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "شفافیت پوشش",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "میانبرهای صفحه کلید",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "میانبرها را فعال کنید",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "از صفحه کلید برای کنترل سرعت استفاده کنید",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "افزایش سرعت",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "میانبر برای افزایش سرعت",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "کاهش سرعت",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "میانبر برای کاهش سرعت",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "کلیدها را فشار دهید...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "ظاهر",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "موضوع",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "طرح رنگ پاپ آپ",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "تاریک",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "نور",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "زبان",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "زبان نمایش برنامه افزودنی",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "تنظیمات را ذخیره کنید",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "به حالت پیش فرض بازنشانی کنید",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "تنظیمات با موفقیت ذخیره شد!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "تنظیمات به حالت پیش فرض بازنشانی می شود",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "تنظیمات ذخیره نشد",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "بازنشانی تنظیمات انجام نشد",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "همه تنظیمات به حالت پیش فرض بازنشانی شود؟ این قابل واگرد نیست.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "سرعت پیش‌فرض باید بین 1 تا 2 دلار باشد",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "گام سرعت باید بین 0.05 تا 5 باشد",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "حداقل یک سرعت سریع معتبر مورد نیاز است",
+    "description": "Validation error for quick speeds"
+  }
+}

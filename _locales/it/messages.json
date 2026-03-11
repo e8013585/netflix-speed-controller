@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Regolatore di velocità Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Controlla la velocità di riproduzione di Netflix con valori personalizzati, scorciatoie da tastiera e overlay su schermo.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Regolatore di velocità",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Velocità attuale",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Velocità elevate",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Velocità personalizzata",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ad esempio, 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Fare domanda a",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Reset",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Impostazioni",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Connessione...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Connesso a Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Non su Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Numero non valido",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "La velocità deve essere compresa tra $1 e $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Velocità impostata su $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Inserisci un valore di velocità",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Diminuire la velocità",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Aumenta la velocità",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Ripristina a 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Regolatore di velocità Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Personalizza la tua esperienza di riproduzione",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Impostazioni di velocità",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Velocità predefinita",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Velocità applicata quando inizi a guardare",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Passo di velocità",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Importo da aumentare/diminuire per passaggio",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Preimpostazioni di velocità rapida",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Elenco separato da virgole delle velocità preimpostate",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Esempio: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Impostazioni di sovrapposizione",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Sovrapposizione della velocità",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Mostra l'indicatore di velocità sul video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Controlli di sovrapposizione",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Mostra i mini pulsanti di velocità sul video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Posizione di sovrapposizione",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Dove visualizzare l'indicatore di velocità",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "In alto a sinistra",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "In alto a destra",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "In basso a sinistra",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "In basso a destra",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Opacità sovrapposta",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Trasparenza della sovrapposizione",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Scorciatoie da tastiera",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Abilita scorciatoie",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Usa la tastiera per controllare la velocità",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Aumenta la velocità",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Scorciatoia per accelerare",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Diminuire la velocità",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Scorciatoia per rallentare",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Premere i tasti...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Aspetto",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Combinazione di colori popup",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Buio",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Leggero",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Lingua",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Lingua di visualizzazione dell'estensione",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Salva impostazioni",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Ripristina le impostazioni predefinite",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Impostazioni salvate con successo!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Le impostazioni vengono ripristinate ai valori predefiniti",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Impossibile salvare le impostazioni",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Impossibile ripristinare le impostazioni",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Ripristinare tutte le impostazioni ai valori predefiniti? Questa operazione non può essere annullata.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "La velocità predefinita deve essere compresa tra $1 e $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Il passo di velocità deve essere compreso tra 0,05 e 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "È richiesta almeno una velocità veloce valida",
+    "description": "Validation error for quick speeds"
+  }
+}

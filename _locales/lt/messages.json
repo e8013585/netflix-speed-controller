@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "„Netflix“ greičio valdiklis",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Valdykite „Netflix“ atkūrimo greitį naudodami pasirinktines reikšmes, sparčiuosius klavišus ir ekrano perdangą.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Greičio reguliatorius",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Dabartinis greitis",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Greitas greitis",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Pasirinktinis greitis",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "pvz., 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Taikyti",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Nustatyti iš naujo",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Nustatymai",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Jungiamasi...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Prisijungta prie „Netflix“.",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Ne „Netflix“.",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Neteisingas numeris",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Greitis turi būti nuo 1 USD iki 2 USD",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Greitis nustatytas į $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Įveskite greičio reikšmę",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Sumažinti greitį",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Padidinti greitį",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Iš naujo nustatykite į 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "„Netflix“ greičio valdiklis",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Tinkinkite savo atkūrimo patirtį",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Greičio nustatymai",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Numatytasis greitis",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Pradėjus žiūrėti, taikomas greitis",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Greitis žingsnis",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Kiekis, kurį reikia padidinti / sumažinti per žingsnį",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Greito greičio išankstiniai nustatymai",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Kableliais atskirtas iš anksto nustatytų greičių sąrašas",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Pavyzdys: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Perdangos nustatymai",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Greičio perdanga",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Rodyti greičio indikatorių vaizdo įraše",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Perdangos valdikliai",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Rodyti mini greičio mygtukus vaizdo įraše",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Perdangos padėtis",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Kur rodyti greičio indikatorių",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Viršuje kairėje",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Viršuje dešinėje",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Apačioje kairėje",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Apačioje dešinėje",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Perdangos neskaidrumas",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Perdangos skaidrumas",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Spartieji klavišai",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Įgalinti sparčiuosius klavišus",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Norėdami valdyti greitį, naudokite klaviatūrą",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Padidinkite greitį",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Spartusis klavišas pagreitinti",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Sumažinti greitį",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Spartusis klavišas sulėtinti",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Paspauskite klavišus...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Išvaizda",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Iššokančių langų spalvų schema",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Tamsus",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Šviesa",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Kalba",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Plėtinio rodymo kalba",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Išsaugoti nustatymus",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Atstatyti į numatytuosius nustatymus",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Nustatymai sėkmingai išsaugoti!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Nustatymai atstatyti į numatytuosius nustatymus",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Nepavyko išsaugoti nustatymų",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Nepavyko iš naujo nustatyti nustatymų",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Iš naujo nustatyti visus numatytuosius nustatymus? To negalima anuliuoti.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Numatytasis greitis turi būti nuo 1 USD iki 2 USD",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Greičio žingsnis turi būti nuo 0,05 iki 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Būtinas bent vienas galiojantis greitas greitis",
+    "description": "Validation error for quick speeds"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Controler de viteză Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Controlați viteza de redare Netflix cu valori personalizate, comenzi rapide de la tastatură și suprapunere pe ecran.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Controler de viteză",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Viteza curentă",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Viteze rapide",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Viteză personalizată",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "de exemplu, 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Aplicați",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Resetați",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Setări",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Se conectează...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Conectat la Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Nu pe Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Număr nevalid",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Viteza trebuie să fie între 1 USD și 2 USD",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Viteza setată la $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Vă rugăm să introduceți o valoare a vitezei",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Scade viteza",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Măriți viteza",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Resetați la 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Controler de viteză Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Personalizați-vă experiența de redare",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Setări de viteză",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Viteza implicită",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Viteza aplicată atunci când începeți să vizionați",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Pas de viteză",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Suma de crescut/scădere pe pas",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Presetări rapide de viteză",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Listă de viteze prestabilite, separate prin virgulă",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Exemplu: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Setări de suprapunere",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Suprapunere de viteză",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Afișați indicatorul de viteză pe videoclip",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Controale de suprapunere",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Afișați mini butoane de viteză în videoclip",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Poziție de suprapunere",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Unde se afișează indicatorul de viteză",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Sus Stânga",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Sus dreapta",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Stânga jos",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Dreapta jos",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Opacitate de suprapunere",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparența suprapunerii",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Comenzi rapide de la tastatură",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Activați comenzile rapide",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Utilizați tastatura pentru a controla viteza",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Măriți viteza",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Comandă rapidă pentru a accelera",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Scade viteza",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Comandă rapidă pentru a încetini",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Apăsați tastele...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Aspect",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Temă",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Schema de culori pop-up",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Întuneric",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Aprinde",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Limbă",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Limba de afișare a extensiei",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Salvați setările",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Resetați la valorile implicite",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Setările au fost salvate cu succes!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Setările revin la valorile implicite",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Nu s-au salvat setările",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Nu s-au resetat setările",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Resetați toate setările la valorile implicite? Acest lucru nu poate fi anulat.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Viteza implicită trebuie să fie între $1 și $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Treapta de viteză trebuie să fie între 0,05 și 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Este necesară cel puțin o viteză rapidă validă",
+    "description": "Validation error for quick speeds"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Controlador de velocitat de Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Controla la velocitat de reproducció de Netflix amb valors personalitzats, dreceres de teclat i superposició en pantalla.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Controlador de velocitat",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Velocitat actual",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Velocitats ràpides",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Velocitat personalitzada",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "p. ex., 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Aplicar",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Restableix",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Configuració",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "S'està connectant...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Connectat a Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "No a Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Número no vàlid",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "La velocitat ha d'estar entre 1 $ i 2 $",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "La velocitat s'ha establert en 1 $",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Introduïu un valor de velocitat",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Disminuir la velocitat",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Augmentar la velocitat",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Restableix a 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Controlador de velocitat de Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Personalitza la teva experiència de reproducció",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Configuració de velocitat",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Velocitat per defecte",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Velocitat aplicada quan comences a mirar",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Pas de velocitat",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Import a augmentar/disminuir per pas",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Presets de velocitat ràpida",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Llista de velocitats predeterminades separades per comes",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Exemple: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Configuració de superposició",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Superposició de velocitat",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Mostra l'indicador de velocitat al vídeo",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Controls de superposició",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Mostra els mini botons de velocitat al vídeo",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Posició de superposició",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "On mostrar l'indicador de velocitat",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Superior esquerra",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "A dalt a la dreta",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "A baix a l'esquerra",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "A baix a la dreta",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Opacitat de superposició",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparència de la superposició",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Dreceres de teclat",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Activa les dreceres",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Utilitzeu el teclat per controlar la velocitat",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Augmenta la velocitat",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Drecera per accelerar",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Disminuir la velocitat",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Drecera per reduir la velocitat",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Premeu les tecles...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Aparença",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Esquema de colors emergent",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Fosc",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Llum",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Llengua",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Idioma de visualització de l'extensió",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Desa la configuració",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Restableix els valors per defecte",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "La configuració s'ha desat correctament!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "La configuració es restableix als valors predeterminats",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "No s'ha pogut desar la configuració",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "No s'ha pogut restablir la configuració",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Restablir tota la configuració als valors predeterminats? Això no es pot desfer.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "La velocitat predeterminada ha d'estar entre $1 i $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "El pas de velocitat ha d'estar entre 0,05 i 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Es requereix almenys una velocitat ràpida vàlida",
+    "description": "Validation error for quick speeds"
+  }
+}

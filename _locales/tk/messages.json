@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix tizlik dolandyryjysy",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Customörite bahalar, klawiatura gysga ýollary we ekranda örtük bilen Netflix oýnamak tizligini dolandyryň.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Tizligi dolandyryjy",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Häzirki tizlik",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Çalt tizlik",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Omörite tizlik",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "meselem, 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Giriş",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Täzeden düzmek",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Sazlamalar",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Birikdirmek ...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix-e birikdirildi",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix-de däl",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Nädogry san",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Tizlik $1 bilen $2 arasynda bolmaly",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Tizlik $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Tizlik bahasyny giriziň",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Tizligi peseltmek",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Tizligi ýokarlandyrmak",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0x-a täzeden düzüň",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix tizlik dolandyryjysy",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Oýnamak tejribäňizi düzüň",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Tizlik sazlamalary",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Bellenen tizlik",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Görüp başlanyňyzda tizlik ulanylýar",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Tizlik ädimi",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Her ädimde ýokarlandyrmagyň / azalmagyň mukdary",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Çalt tizlik",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Öňünden kesgitlenen tizlikleriň vergul bilen bölünen sanawy",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Mysal: 0,5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Üsti sazlamalar",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Tizlik",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Wideoda tizlik görkezijisini görkez",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Örtük dolandyryşlary",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Wideoda kiçi tizlik düwmelerini görkeziň",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Layerleşýän ýeri",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Tizlik görkezijisini nirede görkezmeli",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Leokarky çep",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Rightokarda sagda",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Aşakdan çep",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Aşakda sag",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Açyklyk",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Örtügiň aç-açanlygy",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Klawiatura gysga ýollary",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Salgylanmalary açyň",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Tizligi dolandyrmak üçin klawiaturany ulanyň",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Tizligi ýokarlandyrmak",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Çaltlaşdyrmak üçin salgylanma",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Tizligi peseltmek",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Haýal etmek üçin gysga ýol",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Düwmeleri basyň ...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Daş görnüşi",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Mowzuk",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Açylýan reňk shemasy",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Garaňky",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Lightagtylyk",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Dil",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Giňeldiş görkeziş dili",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Sazlamalary ýazdyryň",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Bellenen ýere gaýtaryň",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Sazlamalar üstünlikli saklandy!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Sazlamalar deslapky görnüşe gaýtarylýar",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Sazlamalary ýazdyryp bilmedi",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Sazlamalary täzeden düzmek başartmady",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Settingshli sazlamalary deslapky görnüşe gaýtaryňmy? Muny yzyna gaýtaryp bolmaz.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Bellenen tizlik $1 bilen $2 arasynda bolmaly",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Tizlik basgançagy 0.05 bilen 5 aralygynda bolmaly",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Iň bolmanda bir çalt tizlik talap edilýär",
+    "description": "Validation error for quick speeds"
+  }
+}

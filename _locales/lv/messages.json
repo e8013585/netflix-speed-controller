@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix ātruma kontrolieris",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Kontrolējiet Netflix atskaņošanas ātrumu, izmantojot pielāgotas vērtības, īsinājumtaustiņus un ekrāna pārklājumu.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ātruma kontrolieris",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Pašreizējais ātrums",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Ātri ātrumi",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Pielāgots ātrums",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "piemēram, 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Pieteikties",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Atiestatīt",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Iestatījumi",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Notiek savienojuma izveide...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Savienots ar Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Nav Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Nederīgs numurs",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Ātrumam jābūt no 1 līdz 2 USD",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Ātrums iestatīts uz 1 $",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Lūdzu, ievadiet ātruma vērtību",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Samaziniet ātrumu",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Palieliniet ātrumu",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Atiestatīt uz 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix ātruma kontrolieris",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Pielāgojiet savu atskaņošanas pieredzi",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Ātruma iestatījumi",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Noklusējuma ātrums",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Ātrums tiek piemērots, kad sākat skatīties",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Ātruma solis",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Summa, kas jāpalielina/samazina vienā solī",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Ātrā ātruma priekšiestatījumi",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Ar komatu atdalīts iepriekš iestatīto ātrumu saraksts",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Piemērs: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Pārklājuma iestatījumi",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Ātruma pārklājums",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Rādīt ātruma indikatoru video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Pārklājuma vadīklas",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Rādīt video mini ātruma pogas",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Pārklājuma pozīcija",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Kur parādīt ātruma indikatoru",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Augšējais pa kreisi",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Augšējais pa labi",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Apakšā pa kreisi",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Apakšējā labajā stūrī",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Pārklājuma necaurredzamība",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Pārklājuma caurspīdīgums",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Tastatūras īsinājumtaustiņi",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Iespējot saīsnes",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Izmantojiet tastatūru, lai kontrolētu ātrumu",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Palieliniet ātrumu",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Īsceļš, lai paātrinātu",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Samaziniet ātrumu",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Īsceļš, lai palēninātu",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Nospiediet taustiņus...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Izskats",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tēma",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Uznirstošā krāsu shēma",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Tumšs",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Gaisma",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Valoda",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Paplašinājuma displeja valoda",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Saglabāt iestatījumus",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Atiestatīt uz noklusējuma iestatījumiem",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Iestatījumi ir veiksmīgi saglabāti!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Iestatījumi ir atiestatīti uz noklusējuma iestatījumiem",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Neizdevās saglabāt iestatījumus",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Neizdevās atiestatīt iestatījumus",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Vai atiestatīt visus iestatījumus uz noklusējuma iestatījumiem? Šo darbību nevar atsaukt.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Noklusējuma ātrumam ir jābūt no 1 līdz 2 USD",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Ātruma solim jābūt no 0,05 līdz 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Ir nepieciešams vismaz viens derīgs ātrais ātrums",
+    "description": "Validation error for quick speeds"
+  }
+}

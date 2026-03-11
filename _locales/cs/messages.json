@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Ovladač rychlosti Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Ovládejte rychlost přehrávání Netflix pomocí vlastních hodnot, klávesových zkratek a překrytí na obrazovce.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Regulátor rychlosti",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Aktuální rychlost",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Rychlé rychlosti",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Vlastní rychlost",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "např. 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Použít",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Resetovat",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Nastavení",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Spojovací...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Připojeno k Netflixu",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Ne na Netflixu",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Neplatné číslo",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Rychlost musí být mezi $1 a $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Rychlost nastavena na $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Zadejte prosím hodnotu rychlosti",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Snížit rychlost",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Zvyšte rychlost",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Resetovat na 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Ovladač rychlosti Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Přizpůsobte si zážitek z přehrávání",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Nastavení rychlosti",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Výchozí rychlost",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Rychlost se použije, když začnete sledovat",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Rychlostní krok",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Částka ke zvýšení/snížení na krok",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Rychlé předvolby rychlosti",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Čárkami oddělený seznam přednastavených rychlostí",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Příklad: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Nastavení překrytí",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Překryvná rychlost",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Zobrazit indikátor rychlosti na videu",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Ovládací prvky překrytí",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Zobrazit mini tlačítka rychlosti na videu",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Poloha překrytí",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Kde zobrazit ukazatel rychlosti",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Vlevo nahoře",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Vpravo nahoře",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Vlevo dole",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Vpravo dole",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Krytí překrytí",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Průhlednost překryvu",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Klávesové zkratky",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Povolit zkratky",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "K ovládání rychlosti použijte klávesnici",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Zvyšte rychlost",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Zkratka pro zrychlení",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Snížit rychlost",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Zkratka pro zpomalení",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Stiskněte klávesy...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Vzhled",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Téma",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Vyskakovací barevné schéma",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Tmavý",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Světlo",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Jazyk",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Jazyk zobrazení rozšíření",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Uložit nastavení",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Obnovit výchozí",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Nastavení byla úspěšně uložena!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Nastavení se resetuje na výchozí",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Nastavení se nepodařilo uložit",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Nastavení se nepodařilo resetovat",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Obnovit všechna nastavení na výchozí? Toto nelze vrátit zpět.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Výchozí rychlost musí být mezi $1 a $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Rychlostní krok musí být mezi 0,05 a 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Je vyžadována alespoň jedna platná rychlá rychlost",
+    "description": "Validation error for quick speeds"
+  }
+}

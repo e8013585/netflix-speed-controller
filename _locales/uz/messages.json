@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix tezlik boshqaruvchisi",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Maxsus qiymatlar, klaviatura yorliqlari va ekrandagi qoplama yordamida Netflix ijro tezligini boshqaring.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Tezlik regulyatori",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Joriy tezlik",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Tez tezliklar",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Maxsus tezlik",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "masalan, 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Murojaat qiling",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Qayta tiklash",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Sozlamalar",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Ulanmoqda...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix-ga ulangan",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix-da emas",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Raqam noto‘g‘ri",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Tezlik $1 va $2 orasida bo'lishi kerak",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Tezlik $1x qilib belgilandi",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Tezlik qiymatini kiriting",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Tezlikni kamaytiring",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Tezlikni oshiring",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1,0x ga tiklang",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix tezlik boshqaruvchisi",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Ijro tajribangizni moslashtiring",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Tezlik sozlamalari",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Standart tezlik",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Koʻrishni boshlaganingizda tezlik qoʻllaniladi",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Tezlik bosqichi",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Har bir qadam uchun oshirish/kamaytirish miqdori",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Tezkor tezlik sozlamalari",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Oldindan o'rnatilgan tezliklarning vergul bilan ajratilgan ro'yxati",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Misol: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Overlay sozlamalari",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Tezlikni qoplash",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Videoda tezlik ko'rsatkichini ko'rsatish",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Overlay Controls",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Videoda mini tezlik tugmalarini ko'rsatish",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Overlay Position",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Tezlik indikatorini qayerda ko'rsatish kerak",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Yuqori chap",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Yuqori oʻng",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Pastki chap",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Pastki oʻng",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Qoplama shaffofligi",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Qoplamaning shaffofligi",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Klaviatura yorliqlari",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Yorliqlarni yoqish",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Tezlikni boshqarish uchun klaviaturadan foydalaning",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Tezlikni oshirish",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Tezlashtirish uchun yorliq",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Tezlikni pasaytirish",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Sekinlashtirish uchun yorliq",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Tugmalarni bosing...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Tashqi ko'rinish",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Mavzu",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Qalqib chiquvchi oyna rang sxemasi",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Qorong'i",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Nur",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Til",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Kengaytmani ko'rsatish tili",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Sozlamalarni saqlash",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Asl holatiga qaytarish",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Sozlamalar muvaffaqiyatli saqlandi!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Sozlamalar asl holatiga qaytariladi",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Sozlamalarni saqlab bo‘lmadi",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Sozlamalarni qayta o‘rnatib bo‘lmadi",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Barcha sozlamalar asl holatiga qaytarilsinmi? Buni ortga qaytarib bo‘lmaydi.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Standart tezlik $1 va $2 orasida bo'lishi kerak",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Tezlik qadami 0,05 dan 5 gacha bo'lishi kerak",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Kamida bitta yaroqli tezkor tezlik talab qilinadi",
+    "description": "Validation error for quick speeds"
+  }
+}

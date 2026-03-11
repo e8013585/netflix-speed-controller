@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix 速度控制器",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "使用自訂值、鍵盤快捷鍵和螢幕覆蓋來控制 Netflix 播放速度。",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "速度控制器",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "目前速度",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "速度快",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "客製化速度",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "例如，1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "申請",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "重置",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "設定",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "正在連接...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "已連接到 Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "不在 Netflix 上",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "號碼無效",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "速度必須在 1 美元到 2 美元之間",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "速度設定為 $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "請輸入速度值",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "降低速度",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "提高速度",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "重設為 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix 速度控制器",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "自訂您的播放體驗",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "速度設定",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "預設速度",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "開始觀看時應用速度",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "速度步",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "每步增加/減少的量",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "快速預設",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "以逗號分隔的預設速度列表",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "例：0.5、0.75、1.0、1.25、1.5、2.0、3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "疊加設定",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "速度疊加",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "在影片上顯示速度指示器",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "疊加控件",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "在影片上顯示迷你速度按鈕",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "疊加位置",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "在哪裡顯示速度指示器",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "左上",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "右上",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "左下角",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "右下角",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "疊加不透明度",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "覆蓋層的透明度",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "鍵盤快速鍵",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "啟用快捷方式",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "使用鍵盤控制速度",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "提高速度",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "加速的捷徑",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "降低速度",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "減速的捷徑",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "按鍵...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "外貌",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "主題",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "彈出配色方案",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "黑暗的",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "光",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "語言",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "擴展顯示語言",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "儲存設定",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "重設為預設值",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "設定保存成功！",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "設定重設為預設值",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "儲存設定失敗",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "重置設定失敗",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "將所有設定重設為預設值？此操作無法撤銷。",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "預設速度必須介於 $1 和 $2 之間",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "速度步長必須介於 0.05 和 5 之間",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "至少需要一種有效的快速速度",
+    "description": "Validation error for quick speeds"
+  }
+}

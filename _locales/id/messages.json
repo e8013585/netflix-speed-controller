@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Pengontrol Kecepatan Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Kontrol kecepatan pemutaran Netflix dengan nilai khusus, pintasan keyboard, dan hamparan di layar.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Pengontrol Kecepatan",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Kecepatan Saat Ini",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Kecepatan Cepat",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Kecepatan Khusus",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "misalnya, 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Menerapkan",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Mengatur ulang",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Pengaturan",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Menghubungkan...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Terhubung ke Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Tidak di Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Nomor tidak valid",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Kecepatan harus antara $1 dan $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Kecepatan disetel ke $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Silakan masukkan nilai kecepatan",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Kurangi kecepatan",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Tingkatkan kecepatan",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Setel ulang ke 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Pengontrol Kecepatan Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Sesuaikan pengalaman pemutaran Anda",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Pengaturan Kecepatan",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Kecepatan Bawaan",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Kecepatan diterapkan saat Anda mulai menonton",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Langkah Kecepatan",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Jumlah yang bertambah/kurang per langkah",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Preset Kecepatan Cepat",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Daftar kecepatan prasetel yang dipisahkan koma",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Contoh: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Pengaturan Hamparan",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Hamparan Kecepatan",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Tampilkan indikator kecepatan di video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Kontrol Hamparan",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Tampilkan tombol kecepatan mini di video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Posisi Hamparan",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Dimana menampilkan indikator kecepatan",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Kiri Atas",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Kanan atas",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Kiri Bawah",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Kanan Bawah",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Opasitas Hamparan",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparansi hamparan",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Pintasan Papan Ketik",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Aktifkan Pintasan",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Gunakan keyboard untuk mengontrol kecepatan",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Tingkatkan Kecepatan",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Jalan pintas untuk mempercepat",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Kurangi Kecepatan",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Jalan pintas untuk memperlambat",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Tekan tombol...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Penampilan",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Skema warna pop-up",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Gelap",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Lampu",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Bahasa",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Bahasa tampilan ekstensi",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Simpan Pengaturan",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Atur Ulang ke Default",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Pengaturan berhasil disimpan!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Pengaturan diatur ulang ke default",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Gagal menyimpan pengaturan",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Gagal menyetel ulang setelan",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Reset semua pengaturan ke default? Hal ini tidak dapat dibatalkan.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Kecepatan default harus antara $1 dan $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Langkah kecepatan harus antara 0,05 dan 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Setidaknya diperlukan satu kecepatan cepat yang valid",
+    "description": "Validation error for quick speeds"
+  }
+}

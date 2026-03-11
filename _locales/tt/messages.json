@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix тизлек контроллеры",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Netflix уйнау тизлеген махсус кыйммәтләр, клавиатура кыска юллары һәм экранда каплау белән идарә итегез.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Тизлек контроллеры",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Хәзерге тизлек",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Тиз тизлек",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Махсус тизлек",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "мәс., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Кулланыгыз",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Бетерү",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Көйләүләр",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Тоташу ...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix белән тоташтырылган",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix'та түгел",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Яраксыз сан",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Тизлек $1 белән $2 арасында булырга тиеш",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Тизлек $1х",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Зинһар, тизлек бәясен кертегез",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Тизлекне киметү",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Тизлекне арттыру",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1,0х",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix тизлек контроллеры",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Уйнау тәҗрибәсен көйләгез",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Тизлек көйләүләре",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Килешү тизлеге",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Тизлек карый башлагач кулланыла",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Тизлек адымы",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Адымга арттыру / кимү күләме",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Тиз тизлек",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Алдан билгеләнгән тизлек белән үтем белән аерылган исемлек",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Мисал: 0,5, 0.75, 1,0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Өстәмә көйләүләр",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Тизлекне каплау",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Видеода тизлек күрсәткечен күрсәт",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Өстәмә контроль",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Видеода мини тизлек төймәләрен күрсәтегез",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Позиция",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Кайда тизлек күрсәткечен күрсәтергә",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Өстә сул",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Rightгары уңда",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Түбән сулда",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Түбән уңда",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Караңгылык",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Өстәлнең ачыклыгы",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Клавиатура кыска юллары",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Кыска юлларны кушу",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Тизлекне контрольдә тоту өчен клавиатура кулланыгыз",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Тизлекне арттыру",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Тизләү өчен кыска юл",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Тизлекне киметү",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Акрынлау өчен кыска юл",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Ачкычларга басыгыз ...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Күренеш",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Тема",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Калкып чыккан төс схемасы",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Караңгы",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Яктылык",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Тел",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Күрсәтү теле",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Көйләүләрне саклагыз",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Килешүләргә кире кайтару",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Көйләүләр уңышлы сакланды!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Көйләүләр килешенде",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Көйләүләрне саклый алмады",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Көйләүләрне яңадан урнаштыра алмады",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Барлык көйләүләрне дефолтка кайтарырга? Моны кире кайтарып булмый.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Килешү тизлеге $1 белән $2 арасында булырга тиеш",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Тизлек адымы 0.05 белән 5 арасында булырга тиеш",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Ким дигәндә бер тиз тизлек кирәк",
+    "description": "Validation error for quick speeds"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix-snelheidsregelaar",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Beheer de afspeelsnelheid van Netflix met aangepaste waarden, sneltoetsen en schermoverlay.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Snelheidsregelaar",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Huidige snelheid",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Snelle snelheden",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Aangepaste snelheid",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "bijvoorbeeld 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Toepassen",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Opnieuw instellen",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Instellingen",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Verbinden...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Verbonden met Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Niet op Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Ongeldig nummer",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "De snelheid moet tussen $1 en $2 liggen",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Snelheid ingesteld op $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Voer een snelheidswaarde in",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Verlaag de snelheid",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Verhoog de snelheid",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Opnieuw instellen op 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix-snelheidsregelaar",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Pas uw afspeelervaring aan",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Snelheidsinstellingen",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Standaardsnelheid",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Snelheid toegepast wanneer je begint te kijken",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Snelheid stap",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Bedrag dat per stap moet worden verhoogd/verlaagd",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Voorinstellingen voor snelle snelheid",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Door komma's gescheiden lijst met vooraf ingestelde snelheden",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Voorbeeld: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Overlay-instellingen",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Snelheidsoverlay",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Toon snelheidsindicator op video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Overlay-bedieningselementen",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Toon minisnelheidsknoppen op video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Overlay-positie",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Waar de snelheidsindicator moet worden weergegeven",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Linksboven",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Rechtsboven",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Linksonder",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Rechtsonder",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Overlay-dekking",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparantie van de overlay",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Sneltoetsen op het toetsenbord",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Schakel snelkoppelingen in",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Gebruik het toetsenbord om de snelheid te regelen",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Verhoog de snelheid",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Snelkoppeling om te versnellen",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Snelheid verlagen",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Snelkoppeling om te vertragen",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Toetsen indrukken...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Verschijning",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Thema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Pop-upkleurenschema",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Donker",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Licht",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Taal",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Weergavetaal van extensie",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Instellingen opslaan",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Terugzetten naar standaardwaarden",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Instellingen succesvol opgeslagen!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Instellingen worden teruggezet naar de standaardwaarden",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Kan instellingen niet opslaan",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Kan de instellingen niet resetten",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Alle instellingen terugzetten naar de standaardwaarden? Dit kan niet ongedaan worden gemaakt.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "De standaardsnelheid moet tussen $1 en $2 liggen",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Snelheidsstap moet tussen 0,05 en 5 liggen",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Er is minimaal één geldige snelle snelheid vereist",
+    "description": "Validation error for quick speeds"
+  }
+}

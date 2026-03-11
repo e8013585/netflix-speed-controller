@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "നെറ്റ്ഫ്ലിക്സ് സ്പീഡ് കൺട്രോളർ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ഇഷ്‌ടാനുസൃത മൂല്യങ്ങൾ, കീബോർഡ് കുറുക്കുവഴികൾ, ഓൺ-സ്‌ക്രീൻ ഓവർലേ എന്നിവ ഉപയോഗിച്ച് Netflix പ്ലേബാക്ക് വേഗത നിയന്ത്രിക്കുക.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "സ്പീഡ് കൺട്രോളർ",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "നിലവിലെ വേഗത",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "ദ്രുത വേഗത",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "ഇഷ്ടാനുസൃത വേഗത",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ഉദാ., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "അപേക്ഷിക്കുക",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "പുനഃസജ്ജമാക്കുക",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "ക്രമീകരണങ്ങൾ",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "ബന്ധിപ്പിക്കുന്നു...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix-ലേക്ക് കണക്റ്റുചെയ്‌തു",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix-ൽ അല്ല",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "അസാധുവായ നമ്പർ",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "വേഗത $1 നും $2 നും ഇടയിലായിരിക്കണം",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "വേഗത $1x ആയി സജ്ജീകരിച്ചു",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "ദയവായി ഒരു വേഗത മൂല്യം നൽകുക",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "വേഗത കുറയ്ക്കുക",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "വേഗത കൂട്ടുക",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0x-ലേക്ക് പുനഃസജ്ജമാക്കുക",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "നെറ്റ്ഫ്ലിക്സ് സ്പീഡ് കൺട്രോളർ",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "നിങ്ങളുടെ പ്ലേബാക്ക് അനുഭവം ഇഷ്ടാനുസൃതമാക്കുക",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "സ്പീഡ് ക്രമീകരണങ്ങൾ",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "സ്ഥിര വേഗത",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "നിങ്ങൾ കാണാൻ തുടങ്ങുമ്പോൾ വേഗത ബാധകമാണ്",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "വേഗത ഘട്ടം",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "ഓരോ ഘട്ടത്തിലും കൂടുന്ന/കുറക്കേണ്ട തുക",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "ദ്രുത സ്പീഡ് പ്രീസെറ്റുകൾ",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "പ്രീസെറ്റ് വേഗതകളുടെ കോമയാൽ വേർതിരിച്ച ലിസ്റ്റ്",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "ഉദാഹരണം: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "ഓവർലേ ക്രമീകരണങ്ങൾ",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "സ്പീഡ് ഓവർലേ",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "വീഡിയോയിൽ വേഗത സൂചകം കാണിക്കുക",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "ഓവർലേ നിയന്ത്രണങ്ങൾ",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "വീഡിയോയിൽ മിനി സ്പീഡ് ബട്ടണുകൾ കാണിക്കുക",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "ഓവർലേ സ്ഥാനം",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "സ്പീഡ് ഇൻഡിക്കേറ്റർ എവിടെ പ്രദർശിപ്പിക്കണം",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "മുകളിൽ ഇടത്",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "മുകളിൽ വലത്",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "താഴെ ഇടത്",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "താഴെ വലത്",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "ഓവർലേ അതാര്യത",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "ഓവർലേയുടെ സുതാര്യത",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "കീബോർഡ് കുറുക്കുവഴികൾ",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "കുറുക്കുവഴികൾ പ്രവർത്തനക്ഷമമാക്കുക",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "വേഗത നിയന്ത്രിക്കാൻ കീബോർഡ് ഉപയോഗിക്കുക",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "വേഗത കൂട്ടുക",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "വേഗത കൂട്ടാനുള്ള കുറുക്കുവഴി",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "വേഗത കുറയ്ക്കുക",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "വേഗത കുറയ്ക്കാനുള്ള കുറുക്കുവഴി",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "കീകൾ അമർത്തുക...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "രൂപഭാവം",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "തീം",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "പോപ്പ്അപ്പ് വർണ്ണ സ്കീം",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "ഇരുട്ട്",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "വെളിച്ചം",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "ഭാഷ",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "വിപുലീകരണ പ്രദർശന ഭാഷ",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "സ്ഥിരസ്ഥിതിയിലേക്ക് പുനഃസജ്ജമാക്കുക",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "ക്രമീകരണങ്ങൾ വിജയകരമായി സംരക്ഷിച്ചു!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "ക്രമീകരണങ്ങൾ ഡിഫോൾട്ടിലേക്ക് പുനഃസജ്ജമാക്കുന്നു",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "ക്രമീകരണങ്ങൾ പുനഃസജ്ജമാക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "എല്ലാ ക്രമീകരണങ്ങളും ഡിഫോൾട്ടിലേക്ക് പുനഃസജ്ജമാക്കണോ? ഇത് പഴയപടിയാക്കാനാകില്ല.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "സ്ഥിര വേഗത $1 നും $2 നും ഇടയിലായിരിക്കണം",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "സ്പീഡ് ഘട്ടം 0.05 നും 5 നും ഇടയിലായിരിക്കണം",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "കുറഞ്ഞത് ഒരു സാധുവായ ദ്രുത വേഗതയെങ്കിലും ആവശ്യമാണ്",
+    "description": "Validation error for quick speeds"
+  }
+}

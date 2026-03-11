@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Контролер на скоростта Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Контролирайте скоростта на възпроизвеждане на Netflix с персонализирани стойности, клавишни комбинации и наслагване на екрана.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Регулатор на скоростта",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Текуща скорост",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Бързи скорости",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Персонализирана скорост",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "например 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Кандидатствайте",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Нулиране",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Настройки",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Свързване...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Свързан с Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Не в Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Невалиден номер",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Скоростта трябва да е между $1 и $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Скоростта е зададена на $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Моля, въведете стойност на скоростта",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Намалете скоростта",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Увеличете скоростта",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Нулирайте до 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Контролер на скоростта Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Персонализирайте изживяването си при възпроизвеждане",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Настройки на скоростта",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Скорост по подразбиране",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Скоростта се прилага, когато започнете да гледате",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Скоростна стъпка",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Сума за увеличаване/намаляване на стъпка",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Предварителни настройки за бърза скорост",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Разделен със запетаи списък с предварително зададени скорости",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Пример: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Настройки за наслагване",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Скоростно наслагване",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Показване на индикатор за скорост на видео",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Контроли за наслагване",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Показване на мини бутони за скорост във видеото",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Позиция на наслагване",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Къде да се покаже индикаторът за скорост",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Горе вляво",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Горе вдясно",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Долу вляво",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Долу вдясно",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Непрозрачност на наслагване",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Прозрачност на наслагването",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Клавишни комбинации",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Активиране на преки пътища",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Използвайте клавиатурата, за да контролирате скоростта",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Увеличете скоростта",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Пряк път за ускоряване",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Намалете скоростта",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Пряк път за забавяне",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Натиснете клавишите...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Външен вид",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Тема",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Цветова схема на изскачащи прозорци",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Тъмно",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "светлина",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "език",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Език на показване на разширението",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Запазване на настройките",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Възстановяване на настройките по подразбиране",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Настройките са запазени успешно!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Настройките се нулират до стойностите по подразбиране",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Неуспешно запазване на настройките",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Неуспешно нулиране на настройките",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Нулиране на всички настройки до стойностите по подразбиране? Това не може да бъде отменено.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Скоростта по подразбиране трябва да е между $1 и $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Стъпката на скоростта трябва да бъде между 0,05 и 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Изисква се поне една валидна бърза скорост",
+    "description": "Validation error for quick speeds"
+  }
+}

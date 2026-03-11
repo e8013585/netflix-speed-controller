@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Контролер швидкості Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Керуйте швидкістю відтворення Netflix за допомогою спеціальних значень, комбінацій клавіш і накладання на екрані.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Регулятор швидкості",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Поточна швидкість",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Швидкі швидкості",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Спеціальна швидкість",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "наприклад, 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Застосувати",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Скинути",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Налаштування",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Підключення...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Підключено до Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Не на Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Невірний номер",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Швидкість має бути від 1 до 2 доларів",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Швидкість встановлена ​​на $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Будь ласка, введіть значення швидкості",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Знизьте швидкість",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Збільште швидкість",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Скинути до 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Контролер швидкості Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Налаштуйте свій досвід відтворення",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Налаштування швидкості",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Швидкість за замовчуванням",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Швидкість застосовується, коли ви починаєте перегляд",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Швидкісний крок",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Сума збільшення/зменшення за крок",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Попередні налаштування швидкої швидкості",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Список заданих швидкостей, розділених комами",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Приклад: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Параметри накладання",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Накладення швидкості",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Показати індикатор швидкості на відео",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Елементи керування накладанням",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Показати міні-кнопки швидкості на відео",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Позиція накладання",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Де відобразити індикатор швидкості",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Зліва вгорі",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Верхній правий",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Внизу зліва",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Внизу праворуч",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Непрозорість накладення",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Прозорість накладки",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Комбінації клавіш",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Увімкнути ярлики",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Використовуйте клавіатуру для керування швидкістю",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Збільшити швидкість",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Ярлик для прискорення",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Зменшити швидкість",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Ярлик для сповільнення",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Натисніть клавіші...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Зовнішній вигляд",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Тема",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Колірна схема спливаючого вікна",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Темний",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "світло",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Мова",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Мова відображення розширення",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Зберегти налаштування",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Скинути до значень за замовчуванням",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Налаштування успішно збережено!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Скидання налаштувань до значень за замовчуванням",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Не вдалося зберегти налаштування",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Не вдалося скинути налаштування",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Скинути всі налаштування до значень за замовчуванням? Це неможливо скасувати.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Швидкість за замовчуванням має бути від $1 до $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Крок швидкості має бути від 0,05 до 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Потрібна принаймні одна дійсна швидка швидкість",
+    "description": "Validation error for quick speeds"
+  }
+}

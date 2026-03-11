@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "وحدة التحكم في سرعة Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "تحكم في سرعة تشغيل Netflix باستخدام القيم المخصصة واختصارات لوحة المفاتيح والتراكب الذي يظهر على الشاشة.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "تحكم السرعة",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "السرعة الحالية",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "سرعات سريعة",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "السرعة المخصصة",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "على سبيل المثال، 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "يتقدم",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "إعادة ضبط",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "إعدادات",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "جارٍ الاتصال...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "متصل بـ Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "ليس على نيتفليكس",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "رقم غير صالح",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "يجب أن تتراوح السرعة بين 1 دولار و 2 دولار",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "تم ضبط السرعة على $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "الرجاء إدخال قيمة السرعة",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "تقليل السرعة",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "زيادة السرعة",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "إعادة التعيين إلى 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "وحدة التحكم في سرعة Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "تخصيص تجربة التشغيل الخاصة بك",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "إعدادات السرعة",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "السرعة الافتراضية",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "يتم تطبيق السرعة عند بدء المشاهدة",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "خطوة السرعة",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "مقدار الزيادة/النقصان لكل خطوة",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "الإعدادات المسبقة للسرعة السريعة",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "قائمة مفصولة بفواصل للسرعات المحددة مسبقًا",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "مثال: 0.5، 0.75، 1.0، 1.25، 1.5، 2.0، 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "إعدادات التراكب",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "تراكب السرعة",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "إظهار مؤشر السرعة على الفيديو",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "ضوابط التراكب",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "إظهار أزرار السرعة المصغرة على الفيديو",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "موقف التراكب",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "مكان عرض مؤشر السرعة",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "أعلى اليسار",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "أعلى اليمين",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "أسفل اليسار",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "أسفل اليمين",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "تراكب التعتيم",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "شفافية التراكب",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "اختصارات لوحة المفاتيح",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "تمكين الاختصارات",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "استخدم لوحة المفاتيح للتحكم في السرعة",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "زيادة السرعة",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "اختصار لتسريع",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "تقليل السرعة",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "اختصار لإبطاء",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "اضغط على المفاتيح...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "مظهر",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "سمة",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "نظام الألوان المنبثقة",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "مظلم",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "ضوء",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "لغة",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "لغة عرض الامتداد",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "حفظ الإعدادات",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "إعادة التعيين إلى الإعدادات الافتراضية",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "تم حفظ الإعدادات بنجاح!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "إعادة ضبط الإعدادات على الإعدادات الافتراضية",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "فشل في حفظ الإعدادات",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "فشل في إعادة ضبط الإعدادات",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "إعادة تعيين كافة الإعدادات إلى الإعدادات الافتراضية؟ لا يمكن التراجع عن هذا.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "يجب أن تكون السرعة الافتراضية بين 1 دولار و2 دولار",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "يجب أن تكون خطوة السرعة بين 0.05 و5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "مطلوب سرعة سريعة صالحة واحدة على الأقل",
+    "description": "Validation error for quick speeds"
+  }
+}

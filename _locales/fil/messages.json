@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix Speed ​​Controller",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Kontrolin ang bilis ng pag-playback ng Netflix gamit ang mga custom na value, keyboard shortcut, at on-screen overlay.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Kontroler ng Bilis",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Kasalukuyang Bilis",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Mabilis na Bilis",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Custom na Bilis",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "hal., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Mag-apply",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "I-reset",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Mga setting",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Kumokonekta...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Nakakonekta sa Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Wala sa Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Di-wastong numero",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Ang bilis ay dapat nasa pagitan ng $1 at $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Ang bilis ay itinakda sa $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Mangyaring maglagay ng halaga ng bilis",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Bawasan ang bilis",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Dagdagan ang bilis",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "I-reset sa 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix Speed ​​Controller",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "I-customize ang iyong karanasan sa pag-playback",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Mga Setting ng Bilis",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Default na Bilis",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Inilapat ang bilis kapag nagsimula kang manood",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Bilis ng Hakbang",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Halagang tataas/babawas bawat hakbang",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Mabilis na Bilis Preset",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Listahan ng mga preset na bilis na pinaghihiwalay ng kuwit",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Halimbawa: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Mga Setting ng Overlay",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Bilis na Overlay",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Ipakita ang tagapagpahiwatig ng bilis sa video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Mga Kontrol sa Overlay",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Ipakita ang mga mini speed na button sa video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Posisyon ng Overlay",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Kung saan ipapakita ang tagapagpahiwatig ng bilis",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Kaliwa sa itaas",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Kanan sa itaas",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Kaliwa sa ibaba",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Kanan sa ibaba",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Overlay Opacity",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Transparency ng overlay",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Mga Keyboard Shortcut",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Paganahin ang Mga Shortcut",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Gamitin ang keyboard upang kontrolin ang bilis",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Dagdagan ang Bilis",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Shortcut para mapabilis",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Bawasan ang Bilis",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Shortcut para bumagal",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Pindutin ang mga key...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Hitsura",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Popup na scheme ng kulay",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Madilim",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Liwanag",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Wika",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Wika ng pagpapakita ng extension",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "I-save ang Mga Setting",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "I-reset sa Mga Default",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Matagumpay na na-save ang mga setting!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Ni-reset ang mga setting sa mga default",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Nabigong i-save ang mga setting",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Nabigong i-reset ang mga setting",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "I-reset ang lahat ng mga setting sa mga default? Hindi na ito maaaring bawiin.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Ang default na bilis ay dapat nasa pagitan ng $1 at $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Ang bilis ng hakbang ay dapat nasa pagitan ng 0.05 at 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Hindi bababa sa isang wastong mabilis na bilis ang kinakailangan",
+    "description": "Validation error for quick speeds"
+  }
+}

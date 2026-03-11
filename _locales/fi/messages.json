@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflixin nopeussäädin",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Hallitse Netflixin toistonopeutta mukautetuilla arvoilla, pikanäppäimillä ja näytön peittokuvalla.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Nopeussäädin",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Nykyinen nopeus",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Nopeat nopeudet",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Mukautettu nopeus",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "esim. 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Käytä",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Nollaa",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Asetukset",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Yhdistetään...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Yhdistetty Netflixiin",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Ei Netflixissä",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Virheellinen numero",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Nopeuden on oltava 1–2 dollaria",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Nopeudeksi asetettu $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Anna nopeusarvo",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Vähennä nopeutta",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Lisää nopeutta",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Palauta 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflixin nopeussäädin",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Mukauta toistokokemustasi",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Nopeusasetukset",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Oletusnopeus",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Nopeus käytössä, kun aloitat katselun",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Speed ​​Step",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Lisättävä/vähentävä määrä askelta kohti",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Pikanopeuden esiasetukset",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Pilkuilla eroteltu luettelo esiasetetuista nopeuksista",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Esimerkki: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Peittokuvan asetukset",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Speed ​​Overlay",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Näytä nopeuden ilmaisin videossa",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Overlay Controls",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Näytä mininopeuspainikkeet videossa",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Peitteen sijainti",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Missä nopeusilmaisin näytetään",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Ylhäällä vasen",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Ylhäällä oikea",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Vasemmalla alhaalla",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Alhaalla oikealla",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Peittokuvan peittävyys",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Peitteen läpinäkyvyys",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Pikanäppäimet",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Ota pikakuvakkeet käyttöön",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Käytä näppäimistöä nopeuden ohjaamiseen",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Lisää nopeutta",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Pikanäppäin nopeuttaaksesi",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Pienennä nopeutta",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Pikanäppäin hidastaaksesi",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Paina näppäimiä...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Ulkonäkö",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Teema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Popup värimaailma",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Tumma",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Kevyt",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Kieli",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Laajennuksen näyttökieli",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Tallenna asetukset",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Palauta oletusarvoihin",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Asetukset tallennettu onnistuneesti!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Asetukset palautetaan oletusasetuksiin",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Asetusten tallentaminen epäonnistui",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Asetusten nollaus epäonnistui",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Palautetaanko kaikki asetukset oletusasetuksiin? Tätä ei voi kumota.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Oletusnopeuden on oltava 1–2 dollaria",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Nopeusaskeleen on oltava välillä 0,05–5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Vähintään yksi voimassa oleva nopea nopeus vaaditaan",
+    "description": "Validation error for quick speeds"
+  }
+}

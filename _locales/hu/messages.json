@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix sebességvezérlő",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Szabályozza a Netflix lejátszási sebességét egyéni értékekkel, billentyűparancsokkal és a képernyőn megjelenő átfedéssel.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Sebességszabályozó",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Jelenlegi sebesség",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Gyors sebességek",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Egyedi sebesség",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "például 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Alkalmazni",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Reset",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Beállítások elemre",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Csatlakozás...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Csatlakoztatva a Netflixhez",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Nem a Netflixen",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Érvénytelen szám",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "A sebességnek 1 és 2 dollár között kell lennie",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "A sebesség 1x dollárra van állítva",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Adjon meg egy sebességértéket",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Csökkentse a sebességet",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Növelje a sebességet",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Állítsa vissza 1.0x-ra",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix sebességvezérlő",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Szabja testre lejátszási élményét",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Sebesség beállítások",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Alapértelmezett sebesség",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Sebesség alkalmazott, amikor elkezdi nézni",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Speed ​​Step",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Lépésenként növelni/csökkenteni kívánt mennyiség",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Gyors előre beállított sebesség",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Az előre beállított sebességek vesszővel elválasztott listája",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Példa: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Fedvény beállításai",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Speed ​​Overlay",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Sebességjelző megjelenítése a videón",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Overlay Controls",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Mini sebességgombok megjelenítése a videón",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Fedvény pozíciója",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Hol jelenítse meg a sebességjelzőt",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Bal felső",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Jobbra fent",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Balra lent",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Jobbra lent",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Fedvény átlátszatlansága",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "A fedőréteg átlátszósága",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Billentyűparancsok",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Parancsikonok engedélyezése",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "A sebesség szabályozásához használja a billentyűzetet",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Sebesség növelése",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Parancsikon a gyorsításhoz",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Sebesség csökkentése",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Parancsikon a lassításhoz",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Nyomd meg a gombokat...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Megjelenés",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Téma",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Felbukkanó színséma",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Sötét",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Fény",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Nyelv",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "A bővítmény megjelenítési nyelve",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Beállítások mentése",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Visszaállítás alapértékekre",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "A beállítások sikeresen elmentve!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "A beállítások visszaállnak az alapértelmezett értékekre",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Nem sikerült menteni a beállításokat",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Nem sikerült visszaállítani a beállításokat",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Visszaállítja az összes beállítást az alapértelmezettre? Ezt nem lehet visszavonni.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Az alapértelmezett sebességnek $1 és $2 között kell lennie",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "A sebességfokozatnak 0,05 és 5 között kell lennie",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Legalább egy érvényes gyors sebesség szükséges",
+    "description": "Validation error for quick speeds"
+  }
+}

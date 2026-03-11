@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "בקר מהירות נטפליקס",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "שלוט במהירות ההשמעה של Netflix עם ערכים מותאמים אישית, קיצורי מקלדת ושכבת-על על המסך.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "בקר מהירות",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "מהירות נוכחית",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "מהירויות מהירות",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "מהירות מותאמת אישית",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "למשל, 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "לִפְנוֹת",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "אִתחוּל",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "הגדרות",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "מְקַשֵׁר...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "מחובר לנטפליקס",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "לא בנטפליקס",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "מספר לא חוקי",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "המהירות חייבת להיות בין $1 ל-$2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "מהירות מוגדרת ל-$1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "נא להזין ערך מהירות",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "הורד מהירות",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "הגבירו מהירות",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "אפס ל-1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "בקר מהירות נטפליקס",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "התאם אישית את חוויית ההשמעה שלך",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "הגדרות מהירות",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "מהירות ברירת מחדל",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "המהירות מופעלת כאשר אתה מתחיל לצפות",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "מהירות שלב",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "כמות להגדלה/ירידה בכל צעד",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "קביעות מראש של מהירות מהירה",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "רשימה מופרדת בפסיקים של מהירויות מוגדרות מראש",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "דוגמה: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "הגדרות שכבת-על",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "שכבת מהירות",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "הצג מחוון מהירות בוידאו",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "בקרות שכבת-על",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "הצג כפתורי מהירות מיני בווידאו",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "מיקום שכבת-על",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "היכן להציג את מחוון המהירות",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "שמאל למעלה",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "למעלה מימין",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "שמאל למטה",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "ימין למטה",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "אטימות שכבת-על",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "שקיפות של שכבת העל",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "קיצורי מקלדת",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "אפשר קיצורי דרך",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "השתמש במקלדת כדי לשלוט במהירות",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "הגדל מהירות",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "קיצור דרך להאיץ",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "הקטנת מהירות",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "קיצור דרך להאטה",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "לחץ על מקשים...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "הוֹפָעָה",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "נוֹשֵׂא",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "ערכת צבעים קופצים",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "כֵּהֶה",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "אוֹר",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "שָׂפָה",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "שפת תצוגה של הרחבה",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "שמור הגדרות",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "אפס לברירות המחדל",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "ההגדרות נשמרו בהצלחה!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "ההגדרות אופסו לברירות המחדל",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "שמירת ההגדרות נכשלה",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "איפוס ההגדרות נכשל",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "לאפס את כל ההגדרות לברירות המחדל? לא ניתן לבטל זאת.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "מהירות ברירת המחדל חייבת להיות בין $1 ל-$2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "צעד המהירות חייב להיות בין 0.05 ל-5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "נדרשת לפחות מהירות מהירה תקפה אחת",
+    "description": "Validation error for quick speeds"
+  }
+}

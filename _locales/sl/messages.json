@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Krmilnik hitrosti Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Nadzorujte hitrost predvajanja Netflix z vrednostmi po meri, bližnjicami na tipkovnici in prekrivanjem na zaslonu.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Krmilnik hitrosti",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Trenutna hitrost",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Hitre hitrosti",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Hitrost po meri",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "npr. 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Prijavite se",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Ponastavi",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "nastavitve",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Povezovanje ...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Povezan z Netflixom",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Ne na Netflixu",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Neveljavna številka",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Hitrost mora biti med 1 in 2 USD",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Hitrost nastavljena na $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Vnesite vrednost hitrosti",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Zmanjšajte hitrost",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Povečajte hitrost",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Ponastavi na 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Krmilnik hitrosti Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Prilagodite svojo izkušnjo predvajanja",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Nastavitve hitrosti",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Privzeta hitrost",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Hitrost se uporabi, ko začnete gledati",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Hitrost Korak",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Količina za povečanje/zmanjšanje na korak",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Prednastavitve hitre hitrosti",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Z vejicami ločen seznam prednastavljenih hitrosti",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Primer: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Nastavitve prekrivanja",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Prekrivanje hitrosti",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Prikaz indikatorja hitrosti na videu",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Kontrolniki prekrivanja",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Pokaži mini gumbe za hitrost na videu",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Prekrivni položaj",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Kje prikazati indikator hitrosti",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Zgoraj levo",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Zgoraj desno",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Spodaj levo",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Spodaj desno",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Motnost prekrivanja",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Preglednost prekrivanja",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Bližnjice na tipkovnici",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Omogoči bližnjice",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Uporabite tipkovnico za nadzor hitrosti",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Povečajte hitrost",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Bližnjica za pospešitev",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Zmanjšajte hitrost",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Bližnjica za upočasnitev",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Pritisnite tipke ...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Videz",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Barvna shema pojavnega okna",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Temno",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Svetloba",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Jezik",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Prikazni jezik razširitve",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Shrani nastavitve",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Ponastavi na privzete nastavitve",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Nastavitve uspešno shranjene!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Nastavitve ponastavljene na privzete",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Shranjevanje nastavitev ni uspelo",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Ponastavitev nastavitev ni uspela",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Ponastaviti vse nastavitve na privzete? Tega ni mogoče razveljaviti.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Privzeta hitrost mora biti med $1 in $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Korak hitrosti mora biti med 0,05 in 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Zahtevana je vsaj ena veljavna hitra hitrost",
+    "description": "Validation error for quick speeds"
+  }
+}

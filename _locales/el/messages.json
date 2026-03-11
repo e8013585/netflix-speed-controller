@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Ελεγκτής ταχύτητας Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Ελέγξτε την ταχύτητα αναπαραγωγής του Netflix με προσαρμοσμένες τιμές, συντομεύσεις πληκτρολογίου και επικάλυψη στην οθόνη.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Ελεγκτής ταχύτητας",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Τρέχουσα ταχύτητα",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Γρήγορες ταχύτητες",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Προσαρμοσμένη Ταχύτητα",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "π.χ. 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Εφαρμόζω",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Επαναφορά",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Ρυθμίσεις",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Συνδετικός...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Συνδεδεμένο στο Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Όχι στο Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Μη έγκυρος αριθμός",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Η ταχύτητα πρέπει να είναι μεταξύ $1 και $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Η ταχύτητα ορίστηκε σε $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Εισαγάγετε μια τιμή ταχύτητας",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Μειώστε την ταχύτητα",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Αυξήστε την ταχύτητα",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Επαναφορά στο 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Ελεγκτής ταχύτητας Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Προσαρμόστε την εμπειρία αναπαραγωγής σας",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Ρυθμίσεις ταχύτητας",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Προεπιλεγμένη Ταχύτητα",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Η ταχύτητα εφαρμόζεται όταν αρχίζετε να παρακολουθείτε",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Βήμα ταχύτητας",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Ποσό προς αύξηση/μείωση ανά βήμα",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Προεπιλογές γρήγορης ταχύτητας",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Λίστα προκαθορισμένων ταχυτήτων διαχωρισμένη με κόμματα",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Παράδειγμα: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Ρυθμίσεις επικάλυψης",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Επικάλυψη ταχύτητας",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Εμφάνιση ένδειξης ταχύτητας στο βίντεο",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Στοιχεία ελέγχου επικάλυψης",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Εμφάνιση κουμπιών μίνι ταχύτητας στο βίντεο",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Θέση επικάλυψης",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Πού να εμφανιστεί η ένδειξη ταχύτητας",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Πάνω αριστερά",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Επάνω δεξιά",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Κάτω αριστερά",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Κάτω δεξιά",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Αδιαφάνεια επικάλυψης",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Διαφάνεια της επικάλυψης",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Συντομεύσεις πληκτρολογίου",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Ενεργοποίηση συντομεύσεων",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Χρησιμοποιήστε το πληκτρολόγιο για να ελέγξετε την ταχύτητα",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Αύξηση Ταχύτητας",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Συντόμευση για επιτάχυνση",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Μειώστε την ταχύτητα",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Συντόμευση για επιβράδυνση",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Πατήστε τα πλήκτρα...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Εμφάνιση",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Θέμα",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Αναδυόμενος συνδυασμός χρωμάτων",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Σκοτάδι",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Φως",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Γλώσσα",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Γλώσσα εμφάνισης επέκτασης",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Αποθήκευση ρυθμίσεων",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Επαναφορά στις προεπιλογές",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Οι ρυθμίσεις επαναφέρονται στις προεπιλογές",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Αποτυχία αποθήκευσης ρυθμίσεων",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Αποτυχία επαναφοράς των ρυθμίσεων",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Επαναφορά όλων των ρυθμίσεων στις προεπιλογές; Αυτό δεν μπορεί να αναιρεθεί.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Η προεπιλεγμένη ταχύτητα πρέπει να είναι μεταξύ $1 και $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Το βήμα ταχύτητας πρέπει να είναι μεταξύ 0,05 και 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Απαιτείται τουλάχιστον μία έγκυρη γρήγορη ταχύτητα",
+    "description": "Validation error for quick speeds"
+  }
+}

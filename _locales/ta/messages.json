@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "நெட்ஃபிக்ஸ் வேகக் கட்டுப்படுத்தி",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "தனிப்பயன் மதிப்புகள், விசைப்பலகை குறுக்குவழிகள் மற்றும் ஆன்-ஸ்கிரீன் ஓவர்லே மூலம் Netflix பிளேபேக் வேகத்தைக் கட்டுப்படுத்தவும்.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "வேகக் கட்டுப்படுத்தி",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "தற்போதைய வேகம்",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "விரைவு வேகம்",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "விருப்ப வேகம்",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "எ.கா., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "விண்ணப்பிக்கவும்",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "மீட்டமை",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "அமைப்புகள்",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "இணைக்கிறது...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix உடன் இணைக்கப்பட்டுள்ளது",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix இல் இல்லை",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "தவறான எண்",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "வேகம் $1 மற்றும் $2 இடையே இருக்க வேண்டும்",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "வேகம் $1x ஆக அமைக்கப்பட்டது",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "வேக மதிப்பை உள்ளிடவும்",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "வேகத்தைக் குறைக்கவும்",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "வேகத்தை அதிகரிக்கவும்",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0xக்கு மீட்டமைக்கவும்",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "நெட்ஃபிக்ஸ் வேகக் கட்டுப்படுத்தி",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "உங்கள் பின்னணி அனுபவத்தைத் தனிப்பயனாக்குங்கள்",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "வேக அமைப்புகள்",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "இயல்புநிலை வேகம்",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "நீங்கள் பார்க்கத் தொடங்கும் போது வேகம் பயன்படுத்தப்பட்டது",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "வேக படி",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "ஒரு படிக்கு அதிகரிக்க/குறைக்க வேண்டிய தொகை",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "விரைவு வேக முன்னமைவுகள்",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "முன்னமைக்கப்பட்ட வேகங்களின் கமாவால் பிரிக்கப்பட்ட பட்டியல்",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "எடுத்துக்காட்டு: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "மேலடுக்கு அமைப்புகள்",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "வேக மேலடுக்கு",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "வீடியோவில் வேகக் குறிகாட்டியைக் காட்டு",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "மேலடுக்கு கட்டுப்பாடுகள்",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "வீடியோவில் மினி வேக பொத்தான்களைக் காட்டு",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "மேலடுக்கு நிலை",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "வேகக் குறிகாட்டியை எங்கே காட்டுவது",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "மேல் இடது",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "மேல் வலது",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "கீழே இடது",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "கீழ் வலது",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "மேலடுக்கு ஒளிபுகா",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "மேலோட்டத்தின் வெளிப்படைத்தன்மை",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "விசைப்பலகை குறுக்குவழிகள்",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "குறுக்குவழிகளை இயக்கு",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "வேகத்தைக் கட்டுப்படுத்த விசைப்பலகையைப் பயன்படுத்தவும்",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "வேகத்தை அதிகரிக்கவும்",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "வேகத்தை அதிகரிக்க குறுக்குவழி",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "வேகத்தைக் குறைக்கவும்",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "வேகத்தைக் குறைக்க குறுக்குவழி",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "விசைகளை அழுத்தவும்...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "தோற்றம்",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "தீம்",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "பாப்அப் வண்ணத் திட்டம்",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "இருள்",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "ஒளி",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "மொழி",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "நீட்டிப்பு காட்சி மொழி",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "அமைப்புகளைச் சேமிக்கவும்",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "இயல்புநிலைக்கு மீட்டமைக்கவும்",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "அமைப்புகள் வெற்றிகரமாகச் சேமிக்கப்பட்டன!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "அமைப்புகள் இயல்புநிலைக்கு மீட்டமைக்கப்படுகின்றன",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "அமைப்புகளைச் சேமிப்பதில் தோல்வி",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "அமைப்புகளை மீட்டமைக்க முடியவில்லை",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "எல்லா அமைப்புகளையும் இயல்புநிலைக்கு மீட்டமைக்கவா? இதை செயல்தவிர்க்க முடியாது.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "இயல்புநிலை வேகம் $1 மற்றும் $2 இடையே இருக்க வேண்டும்",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "வேக படி 0.05 மற்றும் 5 க்கு இடையில் இருக்க வேண்டும்",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "குறைந்தபட்சம் ஒரு செல்லுபடியாகும் விரைவான வேகம் தேவை",
+    "description": "Validation error for quick speeds"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflixi kiiruskontroller",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Juhtige Netflixi taasesituse kiirust kohandatud väärtuste, klaviatuuri otseteede ja ekraani ülekattega.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Kiiruse regulaator",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Praegune kiirus",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Kiired kiirused",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Kohandatud kiirus",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "nt 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Rakenda",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Lähtesta",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Seaded",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Ühendamine...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Ühendatud Netflixiga",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Mitte Netflixis",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Vale number",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Kiirus peab jääma 1–2 dollari vahele",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Kiirus on määratud $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Sisestage kiiruse väärtus",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Vähenda kiirust",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Suurenda kiirust",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Lähtesta 1,0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflixi kiiruskontroller",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Kohandage oma esituskogemust",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Kiiruse sätted",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Vaikekiirus",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Kiirus rakendatakse vaatamise alustamisel",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Kiirus samm",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Suurendatav/vähendav kogus sammu kohta",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Kiiruse eelseadistused",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Eelseadistatud kiiruste komadega eraldatud loend",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Näide: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Ülekatte sätted",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Kiiruse ülekate",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Kuva kiiruse indikaator videol",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Ülekatte juhtnupud",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Näidake videol minikiirusnuppe",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Ülekatte positsioon",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Kus kuvada kiiruse näidik",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Üleval vasakul",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Üleval paremal",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "All vasakul",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "All paremal",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Katte läbipaistmatus",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Ülekatte läbipaistvus",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Klaviatuuri otseteed",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Luba otseteed",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Kasutage kiiruse reguleerimiseks klaviatuuri",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Suurenda kiirust",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Otsetee kiirendamiseks",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Vähenda kiirust",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Otsetee aeglustamiseks",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Vajutage klahve...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Välimus",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Teema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Hüpikakna värviskeem",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Tume",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Valgus",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Keel",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Laienduse kuvamise keel",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Salvesta sätted",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Lähtestage vaikeseadetele",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Seaded salvestati edukalt!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Seaded lähtestatakse vaikeseadetele",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Seadete salvestamine ebaõnnestus",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Seadete lähtestamine ebaõnnestus",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Kas lähtestada kõik seaded vaikeseadetele? Seda ei saa tagasi võtta.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Vaikekiirus peab olema vahemikus $1 kuni $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Kiiruse samm peab olema vahemikus 0,05 kuni 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Nõutav on vähemalt üks kehtiv kiire kiirus",
+    "description": "Validation error for quick speeds"
+  }
+}

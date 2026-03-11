@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Netflix Speed ​​Controller",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Styr Netflix-afspilningshastigheden med brugerdefinerede værdier, tastaturgenveje og overlejring på skærmen.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Hastighedsregulator",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Nuværende hastighed",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Hurtige hastigheder",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Brugerdefineret hastighed",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "f.eks. 1,85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Anvende",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Nulstil",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Indstillinger",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Opretter forbindelse...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Forbundet til Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Ikke på Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Ugyldigt nummer",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Hastigheden skal være mellem $1 og $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Hastighed indstillet til $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Indtast venligst en hastighedsværdi",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Sænk hastigheden",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Øg hastigheden",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Nulstil til 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Netflix Speed ​​Controller",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Tilpas din afspilningsoplevelse",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Hastighedsindstillinger",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Standard hastighed",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Hastighed anvendt, når du begynder at se",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Hastighedstrin",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Beløb, der skal øges/mindskes pr. trin",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Hurtig hastighed forudindstillinger",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Kommasepareret liste over forudindstillede hastigheder",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Eksempel: 0,5, 0,75, 1,0, 1,25, 1,5, 2,0, 3,0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Overlejringsindstillinger",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Hastighed Overlay",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Vis hastighedsindikator på video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Overlay kontroller",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Vis minihastighedsknapper på video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Overlejringsposition",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Hvor skal hastighedsindikatoren vises",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Øverst til venstre",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Øverst til højre",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Nederst til venstre",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Nederst til højre",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Overlay Opacitet",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Gennemsigtighed af overlejringen",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Tastaturgenveje",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Aktiver genveje",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Brug tastaturet til at styre hastigheden",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Øg hastigheden",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Genvej til at fremskynde",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Sænk hastigheden",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Genvej til at sætte farten ned",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Tryk på tasterne...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Udseende",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Popup farveskema",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Mørk",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Lys",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Sprog",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Visningssprog for udvidelsen",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Gem indstillinger",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Nulstil til standarder",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Indstillinger blev gemt!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Indstillinger nulstilles til standardindstillinger",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Indstillingerne kunne ikke gemmes",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Indstillingerne kunne ikke nulstilles",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Vil du nulstille alle indstillinger til standard? Dette kan ikke fortrydes.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Standardhastigheden skal være mellem $1 og $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Hastighedstrin skal være mellem 0,05 og 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Der kræves mindst én gyldig hurtig hastighed",
+    "description": "Validation error for quick speeds"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "ನೆಟ್ಫ್ಲಿಕ್ಸ್ ಸ್ಪೀಡ್ ಕಂಟ್ರೋಲರ್",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ಕಸ್ಟಮ್ ಮೌಲ್ಯಗಳು, ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು ಮತ್ತು ಆನ್-ಸ್ಕ್ರೀನ್ ಓವರ್‌ಲೇ ಮೂಲಕ ನೆಟ್‌ಫ್ಲಿಕ್ಸ್ ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗವನ್ನು ನಿಯಂತ್ರಿಸಿ.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "ವೇಗ ನಿಯಂತ್ರಕ",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "ಪ್ರಸ್ತುತ ವೇಗ",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "ತ್ವರಿತ ವೇಗಗಳು",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "ಕಸ್ಟಮ್ ವೇಗ",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ಉದಾ., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "ಅನ್ವಯಿಸು",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "ಮರುಹೊಂದಿಸಿ",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix ನಲ್ಲಿ ಅಲ್ಲ",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "ಅಮಾನ್ಯ ಸಂಖ್ಯೆ",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "ವೇಗವು $1 ಮತ್ತು $2 ರ ನಡುವೆ ಇರಬೇಕು",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "ವೇಗವನ್ನು $1x ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "ದಯವಿಟ್ಟು ವೇಗದ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "ವೇಗವನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿ",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0x ಗೆ ಮರುಹೊಂದಿಸಿ",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "ನೆಟ್ಫ್ಲಿಕ್ಸ್ ಸ್ಪೀಡ್ ಕಂಟ್ರೋಲರ್",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "ನಿಮ್ಮ ಪ್ಲೇಬ್ಯಾಕ್ ಅನುಭವವನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "ವೇಗ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "ಡೀಫಾಲ್ಟ್ ವೇಗ",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "ನೀವು ವೀಕ್ಷಿಸಲು ಪ್ರಾರಂಭಿಸಿದಾಗ ವೇಗವನ್ನು ಅನ್ವಯಿಸಲಾಗುತ್ತದೆ",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "ವೇಗದ ಹಂತ",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "ಪ್ರತಿ ಹಂತಕ್ಕೆ ಹೆಚ್ಚಿಸುವ/ಕಡಿಮೆ ಮಾಡುವ ಮೊತ್ತ",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "ತ್ವರಿತ ವೇಗ ಪೂರ್ವನಿಗದಿಗಳು",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "ಪೂರ್ವನಿಗದಿ ವೇಗಗಳ ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಪಟ್ಟಿ",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "ಉದಾಹರಣೆ: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "ಓವರ್‌ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "ಸ್ಪೀಡ್ ಓವರ್ಲೇ",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "ವೀಡಿಯೊದಲ್ಲಿ ವೇಗ ಸೂಚಕವನ್ನು ತೋರಿಸಿ",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "ಓವರ್ಲೇ ನಿಯಂತ್ರಣಗಳು",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "ವೀಡಿಯೊದಲ್ಲಿ ಮಿನಿ ವೇಗದ ಬಟನ್‌ಗಳನ್ನು ತೋರಿಸಿ",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "ಓವರ್ಲೇ ಸ್ಥಾನ",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "ವೇಗ ಸೂಚಕವನ್ನು ಎಲ್ಲಿ ಪ್ರದರ್ಶಿಸಬೇಕು",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "ಮೇಲಿನ ಎಡ",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "ಮೇಲಿನ ಬಲ",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "ಕೆಳಗೆ ಎಡ",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "ಕೆಳಗಿನ ಬಲ",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "ಒವರ್ಲೇ ಅಪಾರದರ್ಶಕತೆ",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "ಮೇಲ್ಪದರದ ಪಾರದರ್ಶಕತೆ",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "ವೇಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ಕೀಬೋರ್ಡ್ ಬಳಸಿ",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಿ",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "ವೇಗಗೊಳಿಸಲು ಶಾರ್ಟ್‌ಕಟ್",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "ವೇಗವನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "ನಿಧಾನಗೊಳಿಸಲು ಶಾರ್ಟ್‌ಕಟ್",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "ಕೀಲಿಗಳನ್ನು ಒತ್ತಿ...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "ಗೋಚರತೆ",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "ಥೀಮ್",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "ಪಾಪ್ಅಪ್ ಬಣ್ಣದ ಯೋಜನೆ",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "ಕತ್ತಲು",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "ಬೆಳಕು",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "ಭಾಷೆ",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "ವಿಸ್ತರಣೆ ಪ್ರದರ್ಶನ ಭಾಷೆ",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿ",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸಿ",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಡೀಫಾಲ್ಟ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸುವುದೇ? ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "ಡೀಫಾಲ್ಟ್ ವೇಗವು $1 ಮತ್ತು $2 ರ ನಡುವೆ ಇರಬೇಕು",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "ವೇಗದ ಹಂತವು 0.05 ಮತ್ತು 5 ರ ನಡುವೆ ಇರಬೇಕು",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "ಕನಿಷ್ಠ ಒಂದು ಮಾನ್ಯ ತ್ವರಿತ ವೇಗದ ಅಗತ್ಯವಿದೆ",
+    "description": "Validation error for quick speeds"
+  }
+}

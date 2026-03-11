@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "ตัวควบคุมความเร็วของ Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "ควบคุมความเร็วในการเล่น Netflix ด้วยค่าที่กำหนดเอง แป้นพิมพ์ลัด และการซ้อนทับบนหน้าจอ",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "ตัวควบคุมความเร็ว",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "ความเร็วปัจจุบัน",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "ความเร็วที่รวดเร็ว",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "ความเร็วที่กำหนดเอง",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "เช่น 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "นำมาใช้",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "รีเซ็ต",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "การตั้งค่า",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "กำลังเชื่อมต่อ...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "เชื่อมต่อกับ Netflix แล้ว",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "ไม่มีใน Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "หมายเลขไม่ถูกต้อง",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "ความเร็วต้องอยู่ระหว่าง $1 ถึง $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "ความเร็วตั้งไว้ที่ $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "กรุณากรอกค่าความเร็ว",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "ลดความเร็ว",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "เพิ่มความเร็ว",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "รีเซ็ตเป็น 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "ตัวควบคุมความเร็วของ Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "ปรับแต่งประสบการณ์การเล่นของคุณ",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "การตั้งค่าความเร็ว",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "ความเร็วเริ่มต้น",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "ความเร็วที่ใช้เมื่อคุณเริ่มรับชม",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "ขั้นตอนความเร็ว",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "จำนวนที่เพิ่มขึ้น/ลดลงในแต่ละขั้นตอน",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "การตั้งค่าความเร็วด่วน",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "รายการความเร็วที่ตั้งไว้คั่นด้วยเครื่องหมายจุลภาค",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "ตัวอย่าง: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "การตั้งค่าโอเวอร์เลย์",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "การซ้อนทับความเร็ว",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "แสดงตัวบ่งชี้ความเร็วบนวิดีโอ",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "การควบคุมการซ้อนทับ",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "แสดงปุ่มความเร็วขนาดเล็กบนวิดีโอ",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "ตำแหน่งซ้อนทับ",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "ตำแหน่งที่จะแสดงตัวแสดงความเร็ว",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "ซ้ายบน",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "ขวาบน",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "ล่างซ้าย",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "ล่างขวา",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "ความทึบของการซ้อนทับ",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "ความโปร่งใสของการซ้อนทับ",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "แป้นพิมพ์ลัด",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "เปิดใช้งานทางลัด",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "ใช้แป้นพิมพ์เพื่อควบคุมความเร็ว",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "เพิ่มความเร็ว",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "ทางลัดเพื่อเพิ่มความเร็ว",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "ลดความเร็ว",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "ทางลัดเพื่อชะลอความเร็ว",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "กดปุ่ม...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "รูปร่าง",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "ธีม",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "โทนสีป๊อปอัป",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "มืด",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "แสงสว่าง",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "ภาษา",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "ภาษาที่แสดงส่วนขยาย",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "บันทึกการตั้งค่า",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "รีเซ็ตเป็นค่าเริ่มต้น",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "บันทึกการตั้งค่าเรียบร้อยแล้ว!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "การตั้งค่ารีเซ็ตเป็นค่าเริ่มต้น",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "ไม่สามารถบันทึกการตั้งค่า",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "ไม่สามารถรีเซ็ตการตั้งค่าได้",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "รีเซ็ตการตั้งค่าทั้งหมดเป็นค่าเริ่มต้นหรือไม่ สิ่งนี้ไม่สามารถยกเลิกได้",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "ความเร็วเริ่มต้นต้องอยู่ระหว่าง $1 ถึง $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "ขั้นตอนความเร็วจะต้องอยู่ระหว่าง 0.05 ถึง 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "ต้องมีความเร็วด่วนที่ถูกต้องอย่างน้อยหนึ่งรายการ",
+    "description": "Validation error for quick speeds"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "नेटफ्लिक्स स्पीड कंट्रोलर",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "सानुकूल मूल्ये, कीबोर्ड शॉर्टकट आणि ऑन-स्क्रीन आच्छादनासह Netflix प्लेबॅक गती नियंत्रित करा.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "स्पीड कंट्रोलर",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "वर्तमान गती",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "जलद गती",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "सानुकूल गती",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "उदा., १.८५",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "अर्ज करा",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "रीसेट करा",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "सेटिंग्ज",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "कनेक्ट करत आहे...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Netflix शी कनेक्ट केले",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Netflix वर नाही",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "अवैध संख्या",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "गती $1 आणि $2 दरम्यान असणे आवश्यक आहे",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "गती $1x वर सेट केली",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "कृपया गती मूल्य प्रविष्ट करा",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "वेग कमी करा",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "वेग वाढवा",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "1.0x वर रीसेट करा",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "नेटफ्लिक्स स्पीड कंट्रोलर",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "तुमचा प्लेबॅक अनुभव सानुकूलित करा",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "गती सेटिंग्ज",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "डीफॉल्ट गती",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "तुम्ही पाहणे सुरू करता तेव्हा गती लागू होते",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "गती पायरी",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "प्रति पायरी वाढवण्यासाठी/कमी करण्यासाठी रक्कम",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "जलद गती प्रीसेट",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "प्रीसेट गतींची स्वल्पविरामाने विभक्त केलेली सूची",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "उदाहरण: ०.५, ०.७५, १.०, १.२५, १.५, २.०, ३.०",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "आच्छादन सेटिंग्ज",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "गती आच्छादन",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "व्हिडिओवर गती निर्देशक दर्शवा",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "आच्छादन नियंत्रणे",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "व्हिडिओवर मिनी स्पीड बटणे दाखवा",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "आच्छादन स्थिती",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "गती निर्देशक कुठे प्रदर्शित करायचा",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "वर डावीकडे",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "वर उजवीकडे",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "तळ डावीकडे",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "तळ उजवीकडे",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "ओव्हरले अपारदर्शकता",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "आच्छादनाची पारदर्शकता",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "कीबोर्ड शॉर्टकट",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "शॉर्टकट सक्षम करा",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "गती नियंत्रित करण्यासाठी कीबोर्ड वापरा",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "वेग वाढवा",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "वेग वाढवण्यासाठी शॉर्टकट",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "वेग कमी करा",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "गती कमी करण्यासाठी शॉर्टकट",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "की दाबा...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "देखावा",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "थीम",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "पॉपअप रंग योजना",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "गडद",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "प्रकाश",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "भाषा",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "विस्तार प्रदर्शन भाषा",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "सेटिंग्ज सेव्ह करा",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "डीफॉल्टवर रीसेट करा",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "सेटिंग्ज यशस्वीरित्या जतन केल्या!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "सेटिंग्ज डीफॉल्टवर रीसेट करा",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "सेटिंग्ज सेव्ह करण्यात अयशस्वी",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "सेटिंग्ज रीसेट करण्यात अयशस्वी",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "सर्व सेटिंग्ज डीफॉल्टवर रीसेट करायची? हे पूर्ववत केले जाऊ शकत नाही.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "डीफॉल्ट गती $1 आणि $2 दरम्यान असणे आवश्यक आहे",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "गतीची पायरी 0.05 आणि 5 च्या दरम्यान असणे आवश्यक आहे",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "किमान एक वैध द्रुत गती आवश्यक आहे",
+    "description": "Validation error for quick speeds"
+  }
+}

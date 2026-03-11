@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "Kidhibiti cha kasi cha Netflix",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Dhibiti kasi ya kucheza ya Netflix kwa kutumia thamani maalum, mikato ya kibodi na uwekeleaji kwenye skrini.",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "Mdhibiti wa kasi",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "Kasi ya Sasa",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "Kasi za Haraka",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "Kasi Maalum",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "k.m., 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "Omba",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "Weka upya",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "Mipangilio",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "Inaunganisha...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "Imeunganishwa kwenye Netflix",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "Sio kwenye Netflix",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "Nambari batili",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "Kasi lazima iwe kati ya $1 na $2",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "Kasi imewekwa kuwa $1x",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "Tafadhali weka thamani ya kasi",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "Punguza kasi",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "Ongeza kasi",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "Weka upya hadi 1.0x",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "Kidhibiti cha kasi cha Netflix",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "Badilisha uchezaji upendavyo",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "Mipangilio ya Kasi",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "Kasi Chaguomsingi",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "Kasi itatumika unapoanza kutazama",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "Hatua ya Kasi",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "Kiasi cha kuongeza/kupungua kwa kila hatua",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "Uwekaji awali wa Kasi ya Haraka",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "Orodha iliyotenganishwa kwa koma ya kasi zilizowekwa mapema",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "Mfano: 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "Mipangilio ya Uwekeleaji",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "Mwelekeo wa Kasi",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "Onyesha kiashiria cha kasi kwenye video",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "Vidhibiti vya Uwekeleaji",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "Onyesha vitufe vidogo vya kasi kwenye video",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "Nafasi ya Kufunika",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "Mahali pa kuonyesha kiashiria cha kasi",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "Juu Kushoto",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "Juu Kulia",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "Chini Kushoto",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "Chini Kulia",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "Uwazi wa Kufunika",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "Uwazi wa mwekeleo",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "Njia za mkato za Kibodi",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "Washa Njia za mkato",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "Tumia kibodi kudhibiti kasi",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "Ongeza Kasi",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "Njia ya mkato ya kuongeza kasi",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "Punguza Kasi",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "Njia ya mkato ya kupunguza kasi",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "Bonyeza vitufe...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "Muonekano",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "Mandhari",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "Mpango wa rangi ibukizi",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "Giza",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "Mwanga",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "Lugha",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "Lugha ya maonyesho ya kiendelezi",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "Hifadhi Mipangilio",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "Weka upya kwa Chaguomsingi",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "Mipangilio imehifadhiwa!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "Mipangilio imewekwa upya kwa chaguomsingi",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "Imeshindwa kuhifadhi mipangilio",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "Imeshindwa kuweka upya mipangilio",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "Ungependa kuweka upya mipangilio yote kwa chaguomsingi? Hili haliwezi kutenduliwa.",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "Kasi chaguomsingi lazima iwe kati ya $1 na $2",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "Hatua ya kasi lazima iwe kati ya 0.05 na 5",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "Angalau kasi moja halali ya haraka inahitajika",
+    "description": "Validation error for quick speeds"
+  }
+}

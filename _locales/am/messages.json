@@ -1,0 +1,300 @@
+{
+  "extName": {
+    "message": "የ Netflix ፍጥነት መቆጣጠሪያ",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "የNetflix መልሶ ማጫወት ፍጥነት በብጁ እሴቶች፣ የቁልፍ ሰሌዳ አቋራጮች እና በስክሪኑ ላይ ተደራቢ ይቆጣጠሩ።",
+    "description": "Extension description"
+  },
+  "popupTitle": {
+    "message": "የፍጥነት መቆጣጠሪያ",
+    "description": "Popup header title"
+  },
+  "currentSpeed": {
+    "message": "የአሁኑ ፍጥነት",
+    "description": "Label under speed display"
+  },
+  "quickSpeeds": {
+    "message": "ፈጣን ፍጥነት",
+    "description": "Section label for quick speed buttons"
+  },
+  "customSpeed": {
+    "message": "ብጁ ፍጥነት",
+    "description": "Section label for custom speed input"
+  },
+  "customSpeedPlaceholder": {
+    "message": "ለምሳሌ 1.85",
+    "description": "Placeholder for custom speed input"
+  },
+  "applyBtn": {
+    "message": "ያመልክቱ",
+    "description": "Apply button text"
+  },
+  "resetBtn": {
+    "message": "ዳግም አስጀምር",
+    "description": "Reset button text"
+  },
+  "settingsBtn": {
+    "message": "ቅንብሮች",
+    "description": "Settings link text"
+  },
+  "connecting": {
+    "message": "በመገናኘት ላይ...",
+    "description": "Status while connecting to content script"
+  },
+  "connected": {
+    "message": "ከ Netflix ጋር ተገናኝቷል።",
+    "description": "Status when connected"
+  },
+  "notOnNetflix": {
+    "message": "በNetflix ላይ አይደለም።",
+    "description": "Status when not on Netflix"
+  },
+  "invalidNumber": {
+    "message": "ልክ ያልሆነ ቁጥር",
+    "description": "Error for invalid number input"
+  },
+  "speedRange": {
+    "message": "ፍጥነት በ$1 እና በ$2 መካከል መሆን አለበት።",
+    "description": "Error for out of range speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "speedSetTo": {
+    "message": "ፍጥነት ወደ $1x ተቀናብሯል።",
+    "description": "Confirmation of speed change",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1.5"
+      }
+    }
+  },
+  "enterSpeed": {
+    "message": "እባክዎ የፍጥነት ዋጋ ያስገቡ",
+    "description": "Prompt to enter a speed"
+  },
+  "decreaseSpeed": {
+    "message": "ፍጥነትን ቀንስ",
+    "description": "Tooltip for decrease button"
+  },
+  "increaseSpeed": {
+    "message": "ፍጥነት ይጨምሩ",
+    "description": "Tooltip for increase button"
+  },
+  "resetToDefault": {
+    "message": "ወደ 1.0x ዳግም አስጀምር",
+    "description": "Tooltip for reset button"
+  },
+  "optionsTitle": {
+    "message": "የ Netflix ፍጥነት መቆጣጠሪያ",
+    "description": "Options page title"
+  },
+  "optionsSubtitle": {
+    "message": "የመልሶ ማጫወት ተሞክሮዎን ያብጁ",
+    "description": "Options page subtitle"
+  },
+  "speedSettings": {
+    "message": "የፍጥነት ቅንብሮች",
+    "description": "Speed settings section title"
+  },
+  "defaultSpeedLabel": {
+    "message": "ነባሪ ፍጥነት",
+    "description": "Default speed setting label"
+  },
+  "defaultSpeedDesc": {
+    "message": "መመልከት ሲጀምሩ ፍጥነት ተተግብሯል።",
+    "description": "Default speed setting description"
+  },
+  "speedStepLabel": {
+    "message": "የፍጥነት ደረጃ",
+    "description": "Speed step setting label"
+  },
+  "speedStepDesc": {
+    "message": "በእያንዳንዱ ደረጃ የሚጨምር/የሚቀንስ መጠን",
+    "description": "Speed step setting description"
+  },
+  "quickSpeedPresetsLabel": {
+    "message": "ፈጣን የፍጥነት ቅድመ-ቅምጦች",
+    "description": "Quick speed presets label"
+  },
+  "quickSpeedPresetsDesc": {
+    "message": "በነጠላ ሰረዝ የተለዩ ቅድመ-ቅምጦች ዝርዝር",
+    "description": "Quick speed presets description"
+  },
+  "quickSpeedExample": {
+    "message": "ምሳሌ፡- 0.5፣ 0.75፣ 1.0፣ 1.25፣ 1.5፣ 2.0፣ 3.0",
+    "description": "Example for quick speed presets"
+  },
+  "overlaySettings": {
+    "message": "ተደራቢ ቅንብሮች",
+    "description": "Overlay settings section title"
+  },
+  "speedOverlayLabel": {
+    "message": "የፍጥነት ተደራቢ",
+    "description": "Speed overlay toggle label"
+  },
+  "speedOverlayDesc": {
+    "message": "የፍጥነት አመልካች በቪዲዮ ላይ አሳይ",
+    "description": "Speed overlay toggle description"
+  },
+  "overlayControlsLabel": {
+    "message": "ተደራቢ መቆጣጠሪያዎች",
+    "description": "Overlay controls toggle label"
+  },
+  "overlayControlsDesc": {
+    "message": "በቪዲዮ ላይ አነስተኛ የፍጥነት ቁልፎችን አሳይ",
+    "description": "Overlay controls toggle description"
+  },
+  "overlayPositionLabel": {
+    "message": "ተደራቢ አቀማመጥ",
+    "description": "Overlay position setting label"
+  },
+  "overlayPositionDesc": {
+    "message": "የፍጥነት አመልካች የት እንደሚታይ",
+    "description": "Overlay position setting description"
+  },
+  "posTopLeft": {
+    "message": "ከላይ በግራ",
+    "description": "Position option: top left"
+  },
+  "posTopRight": {
+    "message": "ከላይ በቀኝ",
+    "description": "Position option: top right"
+  },
+  "posBottomLeft": {
+    "message": "ከታች ግራ",
+    "description": "Position option: bottom left"
+  },
+  "posBottomRight": {
+    "message": "ከታች በቀኝ",
+    "description": "Position option: bottom right"
+  },
+  "overlayOpacityLabel": {
+    "message": "ተደራቢ ግልጽነት",
+    "description": "Overlay opacity setting label"
+  },
+  "overlayOpacityDesc": {
+    "message": "የተደራቢው ግልጽነት",
+    "description": "Overlay opacity setting description"
+  },
+  "keyboardSettings": {
+    "message": "የቁልፍ ሰሌዳ አቋራጮች",
+    "description": "Keyboard shortcuts section title"
+  },
+  "enableShortcutsLabel": {
+    "message": "አቋራጮችን አንቃ",
+    "description": "Enable shortcuts toggle label"
+  },
+  "enableShortcutsDesc": {
+    "message": "ፍጥነትን ለመቆጣጠር የቁልፍ ሰሌዳን ይጠቀሙ",
+    "description": "Enable shortcuts toggle description"
+  },
+  "increaseShortcutLabel": {
+    "message": "ፍጥነት ይጨምሩ",
+    "description": "Increase speed shortcut label"
+  },
+  "increaseShortcutDesc": {
+    "message": "ለማፋጠን አቋራጭ",
+    "description": "Increase speed shortcut description"
+  },
+  "decreaseShortcutLabel": {
+    "message": "ፍጥነትን ቀንስ",
+    "description": "Decrease speed shortcut label"
+  },
+  "decreaseShortcutDesc": {
+    "message": "ፍጥነት ለመቀነስ አቋራጭ",
+    "description": "Decrease speed shortcut description"
+  },
+  "pressKeys": {
+    "message": "ቁልፎችን ተጫን...",
+    "description": "Prompt during shortcut recording"
+  },
+  "appearanceSettings": {
+    "message": "መልክ",
+    "description": "Appearance settings section title"
+  },
+  "themeLabel": {
+    "message": "ጭብጥ",
+    "description": "Theme setting label"
+  },
+  "themeDesc": {
+    "message": "ብቅ ባይ የቀለም ዘዴ",
+    "description": "Theme setting description"
+  },
+  "themeDark": {
+    "message": "ጨለማ",
+    "description": "Dark theme option"
+  },
+  "themeLight": {
+    "message": "ብርሃን",
+    "description": "Light theme option"
+  },
+  "languageLabel": {
+    "message": "ቋንቋ",
+    "description": "Language setting label"
+  },
+  "languageDesc": {
+    "message": "የቅጥያ ማሳያ ቋንቋ",
+    "description": "Language setting description"
+  },
+  "saveBtn": {
+    "message": "ቅንብሮችን አስቀምጥ",
+    "description": "Save button text"
+  },
+  "resetDefaultsBtn": {
+    "message": "ወደ ነባሪዎች ዳግም አስጀምር",
+    "description": "Reset to defaults button text"
+  },
+  "settingsSaved": {
+    "message": "ቅንብሮች በተሳካ ሁኔታ ተቀምጠዋል!",
+    "description": "Success message after saving"
+  },
+  "settingsReset": {
+    "message": "ቅንጅቶች ወደ ነባሪዎች ዳግም ተጀምረዋል።",
+    "description": "Success message after reset"
+  },
+  "saveFailed": {
+    "message": "ቅንብሮችን ማስቀመጥ አልተሳካም።",
+    "description": "Error message when save fails"
+  },
+  "resetFailed": {
+    "message": "ቅንብሮችን ዳግም ማስጀመር አልተሳካም።",
+    "description": "Error message when reset fails"
+  },
+  "resetConfirm": {
+    "message": "ሁሉም ቅንብሮች ወደ ነባሪዎች ዳግም ይጀመር? ይህ ሊቀለበስ አይችልም።",
+    "description": "Confirmation dialog for reset"
+  },
+  "validationDefaultSpeed": {
+    "message": "ነባሪ ፍጥነት በ$1 እና $2 መካከል መሆን አለበት።",
+    "description": "Validation error for default speed",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "0.1"
+      },
+      "2": {
+        "content": "$2",
+        "example": "16"
+      }
+    }
+  },
+  "validationSpeedStep": {
+    "message": "የፍጥነት እርምጃ በ0.05 እና 5 መካከል መሆን አለበት።",
+    "description": "Validation error for speed step"
+  },
+  "validationQuickSpeeds": {
+    "message": "ቢያንስ አንድ ትክክለኛ ፈጣን ፍጥነት ያስፈልጋል",
+    "description": "Validation error for quick speeds"
+  }
+}
